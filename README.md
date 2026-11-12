@@ -11,7 +11,9 @@ npm install
 npm run start
 ```
 
-Open http://localhost:3000.
+Open http://localhost:3000/technical-writing-portfolio/.
+
+If PowerShell blocks `npm.ps1`, use `npm.cmd install` and `npm.cmd run start`.
 
 ## Build
 
@@ -22,18 +24,15 @@ npm run serve
 
 ## Publish with GitHub Pages
 
-1. Create a public GitHub repository named `technical-writing-portfolio` and push this folder's contents.
-2. In `docusaurus.config.js`, replace `YOUR_GITHUB_USERNAME` with your GitHub username.
-3. Set `url` to `https://YOUR_GITHUB_USERNAME.github.io` and `baseUrl` to `/technical-writing-portfolio/`.
-4. Run `npm install` and `npm run build` to verify the site.
-5. Deploy with `GIT_USER=YOUR_GITHUB_USERNAME npm run deploy` (Git Bash/macOS/Linux). On Windows PowerShell: `$env:GIT_USER="YOUR_GITHUB_USERNAME"; npm run deploy`.
-6. In GitHub repository settings, configure Pages to publish from the `gh-pages` branch, root folder, if needed.
+The portfolio publishes to https://baysalkerem.github.io/technical-writing-portfolio/.
+In the repository's **Settings > Pages**, the build source is **GitHub Actions**.
 
-Alternatively, connect the repository to Netlify or Vercel and use `npm run build` with output directory `build`. For these root-domain deployments, keep `baseUrl: '/'` and set `url` to the final site origin.
+The [deployment workflow](.github/workflows/deploy.yml) builds with Node.js 22
+and publishes on pushes to `main`. To run it manually, open **Actions > Deploy
+Docusaurus to GitHub Pages**, select **Run workflow**, and choose `main`.
 
 ## Customize before publication
 
-- Replace placeholder GitHub links and deployment settings.
 - Review the public display name and add your preferred contact method.
 - Replace fictional screenshots with original annotated mockups if desired.
 - Add original work samples only after removing proprietary or sensitive material.

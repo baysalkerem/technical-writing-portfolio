@@ -1,1 +1,61 @@
-/* Page-specific styles can be added here. */
+.index {
+  width: min(100%, 56rem);
+  margin-inline: auto;
+  padding: clamp(2rem, 6vw, 4.75rem) clamp(1.25rem, 5vw, 2.5rem) 3rem;
+}
+
+.intro {
+  margin-bottom: clamp(1.75rem, 5vw, 3rem);
+}
+
+.intro h1 {
+  margin-bottom: 0.75rem;
+  font-size: clamp(2.25rem, 5.5vw, 3.5rem);
+  line-height: 1.1;
+}
+
+.intro p {
+  max-width: 34rem;
+  margin: 0;
+  color: var(--portfolio-text-secondary);
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 14rem minmax(0, 1fr);
+  gap: 1rem;
+  padding-block: 1rem;
+  border-top: 1px solid var(--portfolio-border);
+}
+
+.section:last-child {
+  border-bottom: 1px solid var(--portfolio-border);
+}
+
+.section h2 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section a {
+  display: inline-block;
+  padding-block: 0.125rem;
+  text-decoration: underline;
+  text-underline-offset: 0.17em;
+}
+
+@media (max-width: 640px) {
+  .section {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}

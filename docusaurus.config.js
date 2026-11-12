@@ -1,15 +1,14 @@
-// Update url and organizationName before deploying.
 const config = {
   title: 'Kerem Baysal | Technical Writing',
-  tagline: 'Documentation that works.',
+  tagline: 'User and administrator documentation samples',
   favicon: 'img/favicon.svg',
-  url: 'https://YOUR_GITHUB_USERNAME.github.io',
+  url: 'https://baysalkerem.github.io',
   baseUrl: '/technical-writing-portfolio/',
-  organizationName: 'YOUR_GITHUB_USERNAME',
+  organizationName: 'baysalkerem',
   projectName: 'technical-writing-portfolio',
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {hooks: {onBrokenMarkdownLinks: 'warn'}},
   i18n: {defaultLocale: 'en', locales: ['en']},
   presets: [['classic', {
     docs: {routeBasePath: 'docs', sidebarPath: './sidebars.js', editUrl: undefined},
@@ -17,13 +16,18 @@ const config = {
     theme: {customCss: './src/css/custom.css'}
   }]],
   themeConfig: {
-    navbar: {title: 'KEREM / DOCS', items: [
-      {to: '/docs/intro', label: 'Documentation', position: 'left'},
-      {to: '/about', label: 'About', position: 'left'},
-      {href: 'https://github.com/YOUR_GITHUB_USERNAME', label: 'GitHub', position: 'right'}
-    ]},
-    footer: {style: 'dark', links: [{title: 'Explore', items: [{label: 'Documentation', to: '/docs/intro'}, {label: 'About', to: '/about'}]}], copyright: `© ${new Date().getFullYear()} Kerem Baysal. Fictional documentation samples.`},
-    colorMode: {defaultMode: 'dark', respectPrefersColorScheme: true}
+    navbar: {
+      title: 'Kerem Baysal',
+      items: [
+        {type: 'docSidebar', sidebarId: 'docs', label: 'Writing samples', position: 'left'},
+        {to: '/about', label: 'About', position: 'left'},
+        {href: 'https://github.com/baysalkerem/technical-writing-portfolio', label: 'GitHub', position: 'right'},
+      ],
+    },
+    footer: {
+      copyright: `© ${new Date().getFullYear()} Kerem Baysal. Fictional documentation samples.`,
+    },
+    colorMode: {defaultMode: 'light', respectPrefersColorScheme: false},
   }
 };
 module.exports = config;
