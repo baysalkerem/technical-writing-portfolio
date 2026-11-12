@@ -1,6 +1,7 @@
 ---
 title: Administrator Guide
 sidebar_position: 1
+pagination_prev: null
 ---
 # Administer Nexus Connect
 
@@ -9,7 +10,7 @@ The administration console lets authorized administrators manage users, queue me
 ## Administration tasks
 
 - [Create an agent account](./create-user.md)
-- [Configure queue routing](./configure-routing.md)
+- [Configure longest-idle routing](./configure-routing.md)
 
 ## Before you configure the platform
 

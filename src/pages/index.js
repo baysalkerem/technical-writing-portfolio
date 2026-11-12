@@ -8,14 +8,14 @@ const sections = [
     title: 'User Guide',
     samples: [
       {title: 'Set your availability', to: '/docs/user-guide/manage-availability'},
-      {title: 'Handle a customer interaction', to: '/docs/user-guide/handle-interaction'},
+      {title: 'Handle a chat interaction', to: '/docs/user-guide/handle-interaction'},
     ],
   },
   {
     title: 'Administrator Guide',
     samples: [
       {title: 'Create an agent account', to: '/docs/admin-guide/create-user'},
-      {title: 'Configure queue routing', to: '/docs/admin-guide/configure-routing'},
+      {title: 'Configure longest-idle routing', to: '/docs/admin-guide/configure-routing'},
     ],
   },
   {

@@ -23,4 +23,6 @@ DITA, Oxygen XML Editor, SDL Tridion Docs, Confluence, Jira, Markdown, HTML, CSS
 
 I hold a BA in Russian Translation and Interpreting and an MA in Applied Linguistics and Text Analytics. My linguistic background informs my approach to information structure, terminology, and clarity.
 
-*Contact details and professional links can be added before publishing.*
+## Contact
+
+For technical writing roles or collaborations, [message me on LinkedIn](https://www.linkedin.com/in/mehmet-kerem-baysal/).

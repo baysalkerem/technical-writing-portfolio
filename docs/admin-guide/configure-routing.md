@@ -1,32 +1,37 @@
 ---
-title: Configure queue routing
+title: Configure longest-idle routing
 sidebar_position: 3
+pagination_next: null
 ---
-# Configure queue routing
+# Configure longest-idle routing
 
-Configure a queue to distribute incoming interactions to available agents.
+Use the **Longest idle** policy to offer incoming interactions to the eligible agent who has been idle longest. For this policy, idle time starts when an agent enters **Available** or returns to **Available** after finishing wrap-up.
 
 ## Prerequisites
 
 - Sign in with the **Routing administrator** role.
-- Create the target queue and assign at least one agent.
-- Identify the channel and routing policy for the queue.
+- Identify the target queue, its channel, and the approved offer timeout in seconds.
+- Prepare a dedicated test queue that uses the target queue's channel and eligibility rules. Assign two test agents who both meet those rules and keep them out of other queues during the test.
+
+Configure and validate the policy in the test environment before applying it to the production queue.
 
 ## Configure the policy
 
 1. Go to **Routing > Queues**.
-2. Open the target queue.
+2. Open the queue you are configuring. Start with the test queue.
 3. In **Routing policy**, select **Longest idle**.
-4. Set **Offer timeout** to the approved value for your organization.
+4. In **Offer timeout**, enter the approved value in seconds.
 5. Select **Save**. The console displays a confirmation message.
 
 ## Validate routing
 
-1. In a test environment, set a queue member's status to **Available**.
-2. Start a test interaction through the configured channel.
-3. Confirm that the available agent receives the interaction offer.
-4. Review the routing event log if the offer does not arrive.
+1. Have both test agents start in **Away** with no active interaction or open wrap-up.
+2. Have the first agent set their status to **Available**. Wait until **Queue status** shows **Ready** for the test queue.
+3. Wait at least 10 seconds so the agents' idle times differ.
+4. Have the second agent set their status to **Available**. Confirm that the same queue shows **Ready** for this agent.
+5. Start a test interaction through the configured channel.
+6. Confirm that the first agent receives the first offer. This agent entered **Available** earlier and has been idle longer.
 
-:::caution
-Validate changes in a test environment before applying them to production.
-:::
+If the second agent receives the first offer or neither agent receives it, open **Routing > Event log**. Find the event for the test interaction and compare the queue, each agent's eligibility and idle time, and the offer recipient. If there is no event, confirm the test interaction reached the intended queue.
+
+Repeat the test after correcting the issue. After the test passes, [configure the same policy](#configure-the-policy) on the target queue during the approved production change window.

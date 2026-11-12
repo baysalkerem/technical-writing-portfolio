@@ -16,7 +16,7 @@ Choose the guide that matches your role and task.
 
 | Guide | Audience | Start here |
 | --- | --- | --- |
-| [User Guide](./user-guide/overview.md) | Contact center agents | Sign in, set availability, handle interactions |
+| [User Guide](./user-guide/overview.md) | Contact center agents | Set availability and handle chats |
 | [Administrator Guide](./admin-guide/overview.md) | System administrators | Manage users and configure routing |
 | [CRM Integration](./integrations/crm-connection.md) | Integration administrators | Connect and validate a CRM integration |
 | [Operations Guide](./operations/upgrade-workflow.md) | Platform operators | Plan upgrades and resolve common issues |

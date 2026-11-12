@@ -9,13 +9,14 @@ Nexus Connect Workspace helps contact center agents manage availability and resp
 ## Common tasks
 
 1. [Set your availability](./manage-availability.md) before accepting new interactions.
-2. [Handle a customer interaction](./handle-interaction.md) and record the outcome.
+2. [Handle a chat interaction](./handle-interaction.md) and record the outcome.
 
 ## Workspace areas
 
 | Area | Purpose |
 | --- | --- |
-| Availability selector | Control whether the workspace offers new interactions |
+| Availability selector | Set whether the workspace can offer you work |
+| Queue status | Check whether an assigned queue is ready to offer interactions |
 | Interaction panel | View active conversations and customer context |
 | Activity history | Review recent interactions and outcomes |
 
