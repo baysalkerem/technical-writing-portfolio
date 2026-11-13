@@ -8,7 +8,7 @@ import PortfolioNotice from '@site/src/components/PortfolioNotice';
 
 <PortfolioNotice />
 
-Use this guide to narrow down an issue before escalating to a platform administrator. Start with the checks available to your role and hand off checks that require another team's access.
+Start with the checks available to your role. Escalate issues that require another team’s access.
 
 | Symptom | First check | Next action |
 | --- | --- | --- |

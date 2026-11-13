@@ -10,10 +10,6 @@ import PortfolioNotice from '@site/src/components/PortfolioNotice';
 
 <PortfolioNotice />
 
-These samples cover **Nexus Connect**, an enterprise cloud communications platform.
-
-Choose the sample that matches your role and task.
-
 | Sample | Audience | Task |
 | --- | --- | --- |
 | [User Guide](./user-guide/overview.md) | Contact center agents | Set availability and handle chats |

@@ -29,8 +29,6 @@ Configure and validate the policy in the test environment before applying it to 
 
 ## Validate routing
 
-The first offer determines whether the test passes.
-
 ```mermaid
 flowchart TD
     accTitle: Longest-idle routing validation
@@ -46,7 +44,7 @@ flowchart TD
 3. Wait at least 10 seconds so the agents' idle times differ.
 4. Have the second agent set their status to **Available**. Confirm that the same queue shows **Ready** for this agent.
 5. Start a test interaction through the configured channel.
-6. Confirm that the first agent receives the first offer. This agent entered **Available** earlier and has been idle longer.
+6. Confirm that the agent who became **Available** first receives the first offer.
 
 If the second agent receives the first offer or neither agent receives it, open **Routing > Event log**. Look up the test interaction by ID if available. Otherwise, use the queue, channel, and test time with its time zone to identify the event. Compare the queue, each agent's eligibility and idle time, and the offer recipient. If there is no event, record that finding and confirm the test interaction reached the intended queue.
 

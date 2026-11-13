@@ -12,7 +12,7 @@ import PortfolioNotice from '@site/src/components/PortfolioNotice';
 Use the approved version-specific runbook for executable upgrade and recovery steps.
 :::
 
-Use this example workflow to coordinate a planned Nexus Connect upgrade. The scenario shows how to verify interaction delivery before and after the change, and when to stop and escalate.
+Test interaction delivery before and after an upgrade. Escalate any post-upgrade delivery failure to the change lead.
 
 ## Prerequisites
 

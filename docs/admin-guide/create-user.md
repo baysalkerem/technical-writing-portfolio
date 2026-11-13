@@ -8,7 +8,7 @@ import PortfolioNotice from '@site/src/components/PortfolioNotice';
 
 <PortfolioNotice />
 
-Create an agent account and assign the queue the agent will work in. The administrator provisions the account and sends the invitation. The agent completes activation.
+Create an account and assign the agent to a queue. The console sends the invitation, and the agent activates the account.
 
 ## Prerequisites
 

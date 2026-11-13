@@ -26,7 +26,7 @@ Connect Nexus Connect to a customer relationship management (CRM) service so age
 3. Enter a descriptive connection name.
 4. Select your CRM provider.
 5. Select **Authorize** and complete the provider's authorization flow.
-6. In **Field mapping**, map the Nexus Connect interaction field **Customer ID** to the CRM field **External customer ID**. Use the same text value on both sides. In this example, a test interaction with **Customer ID** set to `CUST-1042` should match the prepared CRM record.
+6. In **Field mapping**, map **Customer ID** to **External customer ID**. Both fields must contain the same text value, such as `CUST-1042`.
 7. Select **Test connection**.
 8. If the console reports a successful connection, select **Save**. If the test fails, [resolve the reported error](#if-the-test-fails) and rerun the test before saving.
 

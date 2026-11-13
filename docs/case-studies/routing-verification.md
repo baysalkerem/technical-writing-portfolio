@@ -21,6 +21,6 @@ The revised test uses two eligible agents in the same queue. One becomes availab
 
 ## Why I used a flowchart
 
-The flowchart puts the pass condition and the troubleshooting path in view at the point where the administrator checks the result. The numbered steps carry the exact setup, timing, and interface labels.
+The flowchart shows when the test passes and what to check if it fails. The steps specify the setup, timing, and UI labels.
 
 [View the routing validation flowchart and procedure](../admin-guide/configure-routing.md#validate-routing).

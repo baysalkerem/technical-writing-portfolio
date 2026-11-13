@@ -23,7 +23,7 @@ Accept an incoming chat, reply to the customer, and record the outcome.
 4. Type your reply in **Message**.
 5. Select **Send**. Your reply appears in the conversation.
 
-If the offer closes before you accept it, stay **Available** for the next offer. If you expected another offer and it does not arrive, see [If you are not receiving offers](./manage-availability.md#if-you-are-not-receiving-offers).
+If the offer expires, stay **Available**. If the next expected offer doesn’t arrive, [troubleshoot missing offers](./manage-availability.md#if-you-are-not-receiving-offers).
 
 ## Complete the interaction
 

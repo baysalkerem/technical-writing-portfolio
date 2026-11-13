@@ -13,7 +13,7 @@ Set your availability to control when Nexus Connect offers you new customer inte
 ## Prerequisites
 
 - Sign in to Nexus Connect Workspace with an agent account.
-- Ask your administrator to assign you to the queue you work in.
+- Confirm you’re assigned to the queue you’ll work in.
 
 ## Set your status to Available
 

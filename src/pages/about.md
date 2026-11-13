@@ -17,7 +17,7 @@ I write task-oriented user guides, administrator procedures, and operational wor
 
 ## Style guides and editorial standards
 
-I follow the designated style guide for each project and apply the organization’s approved terminology and documentation templates. I’m familiar with the Google developer documentation style guide, the Microsoft Writing Style Guide, and The Chicago Manual of Style. I document recurring editorial decisions so writers and reviewers can apply them consistently.
+For each project, I use the designated style guide, approved terminology, and documentation templates. I’m familiar with the Google developer documentation style guide, the Microsoft Writing Style Guide, and The Chicago Manual of Style. I document recurring editorial decisions for writers and reviewers.
 
 ## Tools and domains
 
