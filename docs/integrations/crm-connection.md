@@ -26,6 +26,26 @@ Connect Nexus Connect to a customer relationship management (CRM) service so age
 
 ## Verify the integration
 
+In the test below, Nexus Connect uses the interaction’s **Customer ID** to look up a CRM record by **External customer ID**. The **Customer** panel should display only approved fields from the matching record.
+
+```mermaid
+sequenceDiagram
+    accTitle: CRM record lookup for a test interaction
+    accDescr: The agent opens an interaction with Customer ID CUST-1042. Nexus Connect looks up a CRM record with the same External customer ID. On a match, the Customer panel displays approved fields. If the expected record is missing, verify the mapping and test data.
+    participant Workspace as Agent workspace
+    participant Nexus as Nexus Connect
+    participant CRM
+    Workspace->>Nexus: Open interaction for CUST-1042
+    Nexus->>CRM: Match External customer ID
+    alt Record matches
+        CRM-->>Nexus: Return matching record
+        Nexus-->>Workspace: Show approved fields
+    else No matching record
+        CRM-->>Nexus: Return no match
+        Nexus-->>Workspace: Expected record absent
+    end
+```
+
 1. As the test agent, open a test interaction whose **Customer ID** is `CUST-1042`.
 2. In the **Customer** panel, confirm that the record name matches the test record.
 3. Confirm that the panel displays an approved field and omits a field outside the approved list, such as **Internal notes**.

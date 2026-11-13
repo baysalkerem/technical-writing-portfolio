@@ -31,6 +31,12 @@ const sections = [
       {title: 'Troubleshoot common issues', to: '/docs/operations/troubleshooting'},
     ],
   },
+  {
+    title: 'Case studies',
+    samples: [
+      {title: 'Revising a routing verification procedure', to: '/docs/case-studies/routing-verification'},
+    ],
+  },
 ];
 
 export default function Home() {

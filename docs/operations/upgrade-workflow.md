@@ -27,6 +27,20 @@ Use this example workflow to coordinate a planned Nexus Connect upgrade. The sce
 
 If the offer fails to arrive within the agreed time after the upgrade, put dependent upgrades on hold and investigate the failed check.
 
+```mermaid
+flowchart TD
+    accTitle: Post-upgrade routing decision
+    accDescr: When the offer arrives within the agreed time, continue with the remaining service checks. Otherwise, hold dependent upgrades, collect diagnostics, and escalate to the change lead. Follow the lead’s decision and retest. Resume only when the delivery test and required service checks pass and the lead approves.
+    Offer{"Offer arrives within the agreed time?"}
+    Offer -->|Yes| Check["Continue with remaining service checks"]
+    Offer -->|No| Hold["Hold dependent upgrades"]
+    Hold --> Escalate["Collect diagnostics and escalate to the change lead"]
+    Escalate --> Retest["Follow the lead’s decision and retest"]
+    Retest --> Review{"Checks pass and lead approves resuming?"}
+    Review -->|Yes| Resume["Resume the upgrade"]
+    Review -->|No| Wait["Keep the upgrade on hold"]
+```
+
 For example, the change lead agrees to a 15-second limit. The baseline offer arrives in four seconds. After the upgrade, the same test produces no offer within 15 seconds.
 
 1. Confirm that the test agent is **Available** and the queue shows **Ready**. Use the same test inputs as the baseline.

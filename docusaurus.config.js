@@ -8,7 +8,8 @@ const config = {
   projectName: 'technical-writing-portfolio',
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  markdown: {hooks: {onBrokenMarkdownLinks: 'warn'}},
+  markdown: {mermaid: true, hooks: {onBrokenMarkdownLinks: 'warn'}},
+  themes: ['@docusaurus/theme-mermaid'],
   i18n: {defaultLocale: 'en', locales: ['en']},
   presets: [['classic', {
     docs: {routeBasePath: 'docs', sidebarPath: './sidebars.js', editUrl: undefined},
@@ -16,6 +17,13 @@ const config = {
     theme: {customCss: './src/css/custom.css'}
   }]],
   themeConfig: {
+    mermaid: {
+      theme: {light: 'neutral', dark: 'dark'},
+      options: {
+        flowchart: {nodeSpacing: 25, rankSpacing: 30, wrappingWidth: 140},
+        sequence: {actorMargin: 35, diagramMarginX: 12, mirrorActors: false, width: 110, wrap: true},
+      },
+    },
     navbar: {
       title: 'Kerem Baysal',
       items: [

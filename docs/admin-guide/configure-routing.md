@@ -25,6 +25,18 @@ Configure and validate the policy in the test environment before applying it to 
 
 ## Validate routing
 
+The first offer determines whether the test passes.
+
+```mermaid
+flowchart TD
+    accTitle: Longest-idle routing validation
+    accDescr: Start a test interaction after both agents are ready. If the agent who became available first receives the first offer, the test passes. Otherwise, check the routing event log, correct the issue, and repeat the test.
+    Start["Start a test interaction with both agents ready"] --> Offer{"Who receives the first offer?"}
+    Offer -->|Agent available first| Pass["Validation passes"]
+    Offer -->|Other agent or no offer| Inspect["Check the routing event log"]
+    Inspect --> Retry["Correct the issue and repeat the test"]
+```
+
 1. Have both test agents start in **Away** with no active interaction or open wrap-up.
 2. Have the first agent set their status to **Available**. Wait until **Queue status** shows **Ready** for the test queue.
 3. Wait at least 10 seconds so the agents' idle times differ.
