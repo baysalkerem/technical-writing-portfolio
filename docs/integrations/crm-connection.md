@@ -35,12 +35,12 @@ sequenceDiagram
     participant Workspace as Agent workspace
     participant Nexus as Nexus Connect
     participant CRM
-    Workspace->>Nexus: Open interaction for CUST-1042
+    Workspace->>Nexus: Open CUST-1042 interaction
     Nexus->>CRM: Match External customer ID
-    alt Record matches
+    alt Match found
         CRM-->>Nexus: Return matching record
         Nexus-->>Workspace: Show approved fields
-    else No matching record
+    else No match
         CRM-->>Nexus: Return no match
         Nexus-->>Workspace: Expected record absent
     end

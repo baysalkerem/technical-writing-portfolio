@@ -1,3 +1,54 @@
+const diagramFont = 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+
+const diagramStyles = `
+  .node :is(rect, polygon), rect.actor {
+    fill: var(--diagram-node);
+    stroke: var(--diagram-border);
+    stroke-width: 1.5px;
+  }
+  .node rect, rect.actor { rx: 8px; ry: 8px; }
+  .nodeLabel, .edgeLabel { color: var(--diagram-text); }
+  .nodeLabel { font-weight: 600; }
+  .node.decision polygon, rect.actor {
+    fill: var(--diagram-accent-surface);
+    stroke: var(--diagram-accent);
+  }
+  .node.success rect {
+    fill: var(--diagram-success-surface);
+    stroke: var(--diagram-success);
+  }
+  .node.hold rect {
+    fill: var(--diagram-hold-surface);
+    stroke: var(--diagram-hold);
+  }
+  .edgeLabel, .edgeLabel p, .labelBkg {
+    background-color: var(--diagram-surface);
+    border-radius: 4px;
+  }
+  .edgeLabel { font-weight: 650; }
+  .flowchart-link, .messageLine0, .messageLine1 {
+    stroke: var(--diagram-line);
+    stroke-width: 1.7px;
+  }
+  .marker, [id$="-arrowhead"] path {
+    fill: var(--diagram-line);
+    stroke: var(--diagram-line);
+  }
+  .actor-line {
+    stroke: var(--diagram-border);
+    stroke-dasharray: 4 4;
+    stroke-width: 1.2px;
+  }
+  .messageLine1 { stroke-dasharray: 5 4; }
+  .loopLine { stroke: var(--diagram-border); stroke-width: 1.2px; }
+  .labelBox { fill: var(--diagram-accent-surface); stroke: var(--diagram-border); }
+  text.actor > tspan, .messageText, .labelText, .labelText > tspan,
+  .loopText, .loopText > tspan, .sectionTitle, .sectionTitle > tspan {
+    fill: var(--diagram-text);
+  }
+  .loopText { font-weight: 650; }
+`;
+
 const config = {
   title: 'Kerem Baysal | Technical Writing',
   tagline: 'User and administrator documentation samples',
@@ -18,10 +69,25 @@ const config = {
   }]],
   themeConfig: {
     mermaid: {
-      theme: {light: 'neutral', dark: 'dark'},
+      theme: {light: 'base', dark: 'base'},
       options: {
-        flowchart: {nodeSpacing: 25, rankSpacing: 30, wrappingWidth: 140},
-        sequence: {actorMargin: 35, diagramMarginX: 12, mirrorActors: false, width: 110, wrap: true},
+        fontFamily: diagramFont,
+        themeCSS: diagramStyles,
+        flowchart: {nodeSpacing: 18, rankSpacing: 28, padding: 9, wrappingWidth: 132, curve: 'monotoneY'},
+        sequence: {
+          actorFontFamily: diagramFont,
+          actorFontWeight: 650,
+          messageFontFamily: diagramFont,
+          messageFontSize: 14,
+          actorMargin: 36,
+          diagramMarginX: 8,
+          height: 44,
+          messageMargin: 28,
+          mirrorActors: false,
+          width: 100,
+          wrap: true,
+          wrapPadding: 6,
+        },
       },
     },
     navbar: {

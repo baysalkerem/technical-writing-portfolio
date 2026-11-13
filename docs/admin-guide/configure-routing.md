@@ -31,10 +31,10 @@ The first offer determines whether the test passes.
 flowchart TD
     accTitle: Longest-idle routing validation
     accDescr: Start a test interaction after both agents are ready. If the agent who became available first receives the first offer, the test passes. Otherwise, check the routing event log, correct the issue, and repeat the test.
-    Start["Start a test interaction with both agents ready"] --> Offer{"Who receives the first offer?"}
-    Offer -->|Agent available first| Pass["Validation passes"]
-    Offer -->|Other agent or no offer| Inspect["Check the routing event log"]
-    Inspect --> Retry["Correct the issue and repeat the test"]
+    Start["Start the test interaction"] --> Offer{"First offer goes to longest-idle agent?"}:::decision
+    Offer -->|Yes| Pass["Test passes"]:::success
+    Offer -->|No or no offer| Inspect["Check the routing event log"]
+    Inspect --> Retry["Correct the issue and retest"]
 ```
 
 1. Have both test agents start in **Away** with no active interaction or open wrap-up.

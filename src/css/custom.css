@@ -74,6 +74,45 @@
   text-underline-offset: 0.17em;
 }
 
+.docusaurus-mermaid-container {
+  --diagram-surface: #f4faf9;
+  --diagram-node: #ffffff;
+  --diagram-text: #18343b;
+  --diagram-border: #9ab9b8;
+  --diagram-line: #426b6b;
+  --diagram-accent: #2d8b80;
+  --diagram-accent-surface: #ddf2ee;
+  --diagram-success: #458461;
+  --diagram-success-surface: #e1f3e7;
+  --diagram-hold: #a36a24;
+  --diagram-hold-surface: #fff2dc;
+  margin: 1.25rem 0 1.5rem;
+  padding: clamp(0.375rem, 2.5vw, 1.375rem);
+  border: 1px solid var(--portfolio-border);
+  border-radius: 0.875rem;
+  background: var(--diagram-surface);
+}
+
+[data-theme='dark'] .docusaurus-mermaid-container {
+  --diagram-surface: #1b262a;
+  --diagram-node: #26353b;
+  --diagram-text: #e8f3f2;
+  --diagram-border: #617e82;
+  --diagram-line: #99bfbd;
+  --diagram-accent: #69b9ae;
+  --diagram-accent-surface: #224642;
+  --diagram-success: #75b897;
+  --diagram-success-surface: #244334;
+  --diagram-hold: #d2a360;
+  --diagram-hold-surface: #453621;
+}
+
+.docusaurus-mermaid-container > svg {
+  display: block;
+  height: auto;
+  margin-inline: auto;
+}
+
 .footer {
   --ifm-footer-background-color: var(--portfolio-surface-muted);
   --ifm-footer-color: var(--portfolio-text-secondary);
