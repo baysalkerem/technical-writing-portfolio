@@ -3,11 +3,11 @@ title: Administrator Guide
 sidebar_position: 1
 pagination_prev: null
 ---
+import PortfolioNotice from '@site/src/components/PortfolioNotice';
+
 # Administer Nexus Connect
 
-:::warning
-The following procedures are fictional examples. They do not describe a deployed service.
-:::
+<PortfolioNotice />
 
 The administration console lets authorized administrators manage users, queue membership, and interaction routing.
 

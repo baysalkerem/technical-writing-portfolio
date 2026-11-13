@@ -2,10 +2,14 @@
 title: Upgrading a deployment
 pagination_prev: null
 ---
+import PortfolioNotice from '@site/src/components/PortfolioNotice';
+
 # Upgrading a deployment
 
-:::info Portfolio demonstration
-This scenario illustrates validation and escalation. Use the approved version-specific runbook for executable upgrade and recovery steps.
+<PortfolioNotice />
+
+:::note Upgrade and recovery runbook
+Use the approved version-specific runbook for executable upgrade and recovery steps.
 :::
 
 Use this example workflow to coordinate a planned Nexus Connect upgrade. The scenario shows how to verify interaction delivery before and after the change, and when to stop and escalate.
@@ -20,12 +24,19 @@ Use this example workflow to coordinate a planned Nexus Connect upgrade. The sce
 ## Upgrade workflow
 
 1. Record the current version, target version, and component in scope for the change.
-2. Have the test agent set their status to **Available** and confirm the test queue shows **Ready**.
-3. Start a test interaction through the queue's configured channel. Confirm the agent receives the offer within the agreed time. If this baseline test fails, resolve the routing issue before starting the upgrade.
-4. Have the test agent complete the baseline interaction and wrap-up.
-5. Upgrade the component in the order specified by the approved runbook.
-6. Repeat steps 2 and 3 with the same queue, channel, agent, and time limit. If the test passes, have the agent complete the interaction and continue with the remaining service checks in the runbook. If it fails, follow the [decision point](#decision-point).
-7. Close the change after the required service checks pass. Record the final version and validation results.
+2. [Run the delivery test](#test-interaction-delivery) to establish a baseline. If the test fails, resolve the routing issue and repeat the test before starting the upgrade.
+3. Upgrade the component in the order specified by the approved runbook.
+4. [Run the delivery test](#test-interaction-delivery) again with the same queue, channel, agent, and time limit. If the test fails, follow the [decision point](#decision-point).
+5. After the post-upgrade test passes, run the remaining service checks in the runbook.
+6. Close the change after the required service checks pass. Record the final version and validation results.
+
+## Test interaction delivery
+
+1. Have the test agent set their status to **Available**.
+2. Have the agent confirm that the test queue shows **Ready** in **Queue status**.
+3. Start a test interaction through the queue's configured channel.
+4. Check whether the agent receives the offer within the agreed time limit. Record the elapsed time or that no offer arrived within the limit.
+5. If the agent receives the offer, have them complete the interaction and wrap-up.
 
 ## Decision point
 
@@ -48,7 +59,7 @@ flowchart TD
 For example, the change lead agrees to a 15-second limit. The baseline offer arrives in four seconds. After the upgrade, the same test produces no offer within 15 seconds.
 
 1. Confirm that the test agent is **Available** and the queue shows **Ready**. Use the same test inputs as the baseline.
-2. In **Routing > Event log**, look up the test interaction. Record whether the event reached the expected queue and whether an offer was recorded. If no event appears, record that finding.
-3. Give the change lead the component and versions, the queue and channel, the test time and time zone, the interaction ID, and the baseline and post-upgrade results. [Collect and sanitize diagnostic details](./troubleshooting.md#collect-diagnostic-details) before sharing.
-4. Follow the change lead's decision. If the lead authorizes recovery, use the approved recovery plan and repeat the delivery test on the recovered deployment.
+2. In **Routing > Event log**, look up the test interaction. Record whether it reached the expected queue and whether the log shows an offer. If no event appears, record that finding with the queue, channel, and test time with its time zone.
+3. Give the change lead the component and versions, the queue and channel, the test time with its time zone, the interaction ID if available, and the baseline and post-upgrade results. [Collect and sanitize diagnostic details](./troubleshooting.md#collect-diagnostic-details) before sharing.
+4. Follow the change lead's decision. If the lead authorizes recovery, use the approved recovery plan and [run the delivery test](#test-interaction-delivery) on the recovered deployment.
 5. Resume the upgrade only after the delivery test and required service checks pass and the change lead authorizes resuming.

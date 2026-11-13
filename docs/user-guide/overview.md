@@ -2,7 +2,11 @@
 title: User Guide
 sidebar_position: 1
 ---
+import PortfolioNotice from '@site/src/components/PortfolioNotice';
+
 # Work in Nexus Connect
+
+<PortfolioNotice />
 
 :::tip Writing approach
 This guide introduces only the interface elements needed to complete a task. Detailed configuration belongs in the Administrator Guide.

@@ -3,7 +3,11 @@ title: Handle a chat interaction
 sidebar_position: 3
 pagination_next: null
 ---
+import PortfolioNotice from '@site/src/components/PortfolioNotice';
+
 # Handle a chat interaction
+
+<PortfolioNotice />
 
 Accept an incoming chat, reply to the customer, and record the outcome.
 
@@ -11,7 +15,7 @@ Accept an incoming chat, reply to the customer, and record the outcome.
 
 - [Set your status to Available](./manage-availability.md#set-your-status-to-available) and confirm your chat queue shows **Ready**.
 
-## Accept an interaction
+## Accept and reply to a chat {/* #accept-an-interaction */}
 
 1. In the incoming interaction notification, confirm the channel is **Chat** and check the queue name.
 2. Select **Accept**. The conversation opens in the interaction panel.

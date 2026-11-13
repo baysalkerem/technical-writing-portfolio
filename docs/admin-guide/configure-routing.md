@@ -3,7 +3,11 @@ title: Configure longest-idle routing
 sidebar_position: 3
 pagination_next: null
 ---
+import PortfolioNotice from '@site/src/components/PortfolioNotice';
+
 # Configure longest-idle routing
+
+<PortfolioNotice />
 
 Use the **Longest idle** policy to offer incoming interactions to the eligible agent who has been idle longest. For this policy, idle time starts when an agent enters **Available** or returns to **Available** after finishing wrap-up.
 
@@ -44,6 +48,6 @@ flowchart TD
 5. Start a test interaction through the configured channel.
 6. Confirm that the first agent receives the first offer. This agent entered **Available** earlier and has been idle longer.
 
-If the second agent receives the first offer or neither agent receives it, open **Routing > Event log**. Find the event for the test interaction and compare the queue, each agent's eligibility and idle time, and the offer recipient. If there is no event, confirm the test interaction reached the intended queue.
+If the second agent receives the first offer or neither agent receives it, open **Routing > Event log**. Look up the test interaction by ID if available. Otherwise, use the queue, channel, and test time with its time zone to identify the event. Compare the queue, each agent's eligibility and idle time, and the offer recipient. If there is no event, record that finding and confirm the test interaction reached the intended queue.
 
 Repeat the test after correcting the issue. After the test passes, [configure the same policy](#configure-the-policy) on the target queue during the approved production change window.

@@ -4,19 +4,20 @@ title: Documentation library
 slug: /intro
 sidebar_position: 1
 ---
+import PortfolioNotice from '@site/src/components/PortfolioNotice';
+
 # Nexus Connect documentation
 
-:::info Portfolio demonstration
-Nexus Connect is fictional. The interface labels, URLs, configuration fields, and commands in these guides are illustrative and must not be used with production systems.
-:::
+<PortfolioNotice />
 
-Welcome to the sample documentation library for **Nexus Connect**, a fictional enterprise cloud communications platform.
+These samples cover **Nexus Connect**, an enterprise cloud communications platform.
 
-Choose the guide that matches your role and task.
+Choose the sample that matches your role and task.
 
-| Guide | Audience | Start here |
+| Sample | Audience | Task |
 | --- | --- | --- |
 | [User Guide](./user-guide/overview.md) | Contact center agents | Set availability and handle chats |
 | [Administrator Guide](./admin-guide/overview.md) | System administrators | Manage users and configure routing |
-| [CRM Integration](./integrations/crm-connection.md) | Integration administrators | Connect and validate a CRM integration |
-| [Operations Guide](./operations/upgrade-workflow.md) | Platform operators | Plan upgrades and resolve common issues |
+| [Connect a CRM integration](./integrations/crm-connection.md) | Integration administrators | Set up and verify a CRM connection |
+| [Upgrading a deployment](./operations/upgrade-workflow.md) | Platform operators | Verify interaction delivery before and after an upgrade |
+| [Troubleshoot common issues](./operations/troubleshooting.md) | Platform operators | Diagnose issues and escalate to the responsible team |

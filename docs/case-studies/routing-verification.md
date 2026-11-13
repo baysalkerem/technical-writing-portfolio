@@ -3,9 +3,13 @@ title: Revising a routing verification procedure
 pagination_prev: null
 pagination_next: null
 ---
+import PortfolioNotice from '@site/src/components/PortfolioNotice';
+
 # Revising a routing verification procedure
 
-In this editorial case study, I revised a procedure for administrators configuring **Longest idle** routing in Nexus Connect, a fictional contact center platform.
+<PortfolioNotice />
+
+In this editorial case study, I revised a procedure for administrators configuring **Longest idle** routing in Nexus Connect.
 
 ## Before
 
