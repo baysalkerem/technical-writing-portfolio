@@ -21,7 +21,7 @@ I follow the designated style guide for each project and apply the organizationâ
 
 ## Tools and domains
 
-DITA, Oxygen XML Editor, SDL Tridion Docs, Confluence, Jira, Markdown, HTML, CSS, and documentation-as-code workflows. Domains include SIP/VoIP, cloud communications, CRM integrations, and lifecycle management.
+DITA, Oxygen XML Editor, SDL Tridion Docs, Adobe Experience Manager, Confluence, Jira, Markdown, HTML, CSS, Git, Docusaurus, and documentation-as-code workflows. Domains include SIP/VoIP, cloud communications, CRM integrations, and lifecycle management.
 
 ## Background
 
