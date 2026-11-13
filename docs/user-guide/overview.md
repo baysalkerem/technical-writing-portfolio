@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 import PortfolioNotice from '@site/src/components/PortfolioNotice';
 
-# Work in Nexus Connect
+# Nexus Connect overview
 
 <PortfolioNotice />
 
