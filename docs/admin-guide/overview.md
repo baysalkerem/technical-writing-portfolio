@@ -5,6 +5,10 @@ pagination_prev: null
 ---
 # Administer Nexus Connect
 
+:::warning
+The following procedures are fictional examples. They do not describe a deployed service.
+:::
+
 The administration console lets authorized administrators manage users, queue membership, and interaction routing.
 
 ## Administration tasks
@@ -15,7 +19,3 @@ The administration console lets authorized administrators manage users, queue me
 ## Before you configure the platform
 
 Verify that your account has the required administrative permissions and that you are working in the intended environment.
-
-:::warning
-The following procedures are fictional examples. They do not describe a deployed service.
-:::
