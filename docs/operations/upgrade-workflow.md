@@ -4,6 +4,10 @@ pagination_prev: null
 ---
 # Upgrading a deployment
 
+:::info Portfolio demonstration
+This scenario illustrates validation and escalation. Use the approved version-specific runbook for executable upgrade and recovery steps.
+:::
+
 Use this example workflow to coordinate a planned Nexus Connect upgrade. The scenario shows how to verify interaction delivery before and after the change, and when to stop and escalate.
 
 ## Prerequisites
@@ -48,7 +52,3 @@ For example, the change lead agrees to a 15-second limit. The baseline offer arr
 3. Give the change lead the component and versions, the queue and channel, the test time and time zone, the interaction ID, and the baseline and post-upgrade results. [Collect and sanitize diagnostic details](./troubleshooting.md#collect-diagnostic-details) before sharing.
 4. Follow the change lead's decision. If the lead authorizes recovery, use the approved recovery plan and repeat the delivery test on the recovered deployment.
 5. Resume the upgrade only after the delivery test and required service checks pass and the change lead authorizes resuming.
-
-:::info Portfolio demonstration
-This scenario illustrates validation and escalation. Use the approved version-specific runbook for executable upgrade and recovery steps.
-:::
