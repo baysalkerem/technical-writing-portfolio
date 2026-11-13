@@ -10,6 +10,8 @@ import PortfolioNotice from '@site/src/components/PortfolioNotice';
 
 <PortfolioNotice />
 
+These samples follow the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/).
+
 | Sample | Audience | Task |
 | --- | --- | --- |
 | [User guide](./user-guide/overview.md) | Contact center agents | Set availability and handle chats |
