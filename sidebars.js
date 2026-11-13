@@ -21,6 +21,5 @@ module.exports = {
     },
     {type: 'category', label: 'Integrations', items: ['integrations/crm-connection']},
     {type: 'category', label: 'Operations', items: ['operations/upgrade-workflow', 'operations/troubleshooting']},
-    {type: 'category', label: 'Case studies', items: ['case-studies/routing-verification']},
   ]
 };
