@@ -9,7 +9,7 @@ import PortfolioNotice from '@site/src/components/PortfolioNotice';
 
 <PortfolioNotice />
 
-The administration console lets authorized administrators manage users, queue membership, and interaction routing.
+Use the administration console to manage users, queue membership, and interaction routing.
 
 ## Administration tasks
 

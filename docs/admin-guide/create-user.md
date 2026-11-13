@@ -8,7 +8,7 @@ import PortfolioNotice from '@site/src/components/PortfolioNotice';
 
 <PortfolioNotice />
 
-Create an account and assign the agent to a queue. The console sends the invitation, and the agent activates the account.
+Create an account and assign the agent to a queue. The agent activates the account from an email invitation.
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ Create an account and assign the agent to a queue. The console sends the invitat
 3. Enter the agent's name and work email address.
 4. In **Role**, select **Agent**.
 5. In **Queue assignments**, select the required queue.
-6. Select **Create**. The console sends an invitation to the work email address and lists the account as **Pending activation**.
+6. Select **Create**. An invitation goes to the agent’s work email address, and the account appears as **Pending activation**.
 
 ## Verify the account
 

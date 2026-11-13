@@ -8,7 +8,7 @@ import PortfolioNotice from '@site/src/components/PortfolioNotice';
 
 <PortfolioNotice />
 
-Set your availability to control when Nexus Connect offers you new customer interactions.
+Set your availability to control when you can receive new customer interactions.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ Set your availability to control when Nexus Connect offers you new customer inte
 1. In the workspace header, select your current availability status.
 2. Select **Available**. The header displays **Available**.
 3. In the workspace sidebar, open **Queue status**.
-4. Find your queue and confirm it shows **Ready**. The workspace can now offer you interactions from that queue.
+4. Find your queue and confirm it shows **Ready**. You’re now eligible to receive interactions from this queue.
 
 ## If you are not receiving offers
 
@@ -32,9 +32,9 @@ Set your availability to control when Nexus Connect offers you new customer inte
 
 1. Select your current availability status in the workspace header.
 2. Select **Away**.
-3. If the workspace requests a reason, choose the reason that matches your activity.
+3. If a reason field appears, select the reason that matches your activity.
 
-The workspace stops offering new interactions. Active conversations remain open until you complete them.
+You no longer receive new interaction offers. Active conversations remain open until you complete them.
 
 :::note
 Your organization may use different availability labels or require an away reason.

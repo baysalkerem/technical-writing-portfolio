@@ -28,7 +28,7 @@ Connect Nexus Connect to a customer relationship management (CRM) service so age
 5. Select **Authorize** and complete the provider's authorization flow.
 6. In **Field mapping**, map **Customer ID** to **External customer ID**. Both fields must contain the same text value, such as `CUST-1042`.
 7. Select **Test connection**.
-8. If the console reports a successful connection, select **Save**. If the test fails, [resolve the reported error](#if-the-test-fails) and rerun the test before saving.
+8. If the connection test passes, select **Save**. If it fails, [resolve the error](#if-the-test-fails) and rerun the test before saving.
 
 ## Verify the integration
 
@@ -41,7 +41,7 @@ sequenceDiagram
     participant Workspace
     participant Nexus as Nexus Connect
     participant CRM
-    Workspace->>Nexus: Open CUST-1042 interaction
+    Workspace->>Nexus: Interaction opened for CUST-1042
     Nexus->>CRM: Match External customer ID
     alt Match found
         CRM-->>Nexus: Return matching record
@@ -55,7 +55,7 @@ sequenceDiagram
 1. As the test agent, open a test interaction whose **Customer ID** is `CUST-1042`.
 2. In the **Customer** panel, confirm that the record name matches the test record.
 3. Compare the fields in the **Customer** panel with the approved list. Confirm that the panel displays the expected fields and omits the unapproved test field.
-4. Ask the CRM administrator to compare the integration account's actual read permissions in the CRM with the same approved list. Confirm that the account can read only the approved fields.
+4. Ask the CRM administrator to confirm that the integration account has read access only to approved fields.
 
 A successful connection test confirms that Nexus Connect can reach and authenticate with the CRM. The agent test confirms that the saved integration finds and displays the intended record.
 

@@ -9,7 +9,7 @@ import PortfolioNotice from '@site/src/components/PortfolioNotice';
 
 <PortfolioNotice />
 
-Use the **Longest idle** policy to offer incoming interactions to the eligible agent who has been idle longest. For this policy, idle time starts when an agent enters **Available** or returns to **Available** after finishing wrap-up.
+With the **Longest idle** policy, the eligible agent who has been idle longest receives the first offer. Idle time starts when the agent sets their status to **Available** or returns to **Available** after wrap-up.
 
 ## Prerequisites
 

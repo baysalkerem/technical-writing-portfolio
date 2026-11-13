@@ -36,7 +36,7 @@ If the offer expires, stay **Available**. If the next expected offer doesn’t a
 4. Select **Save and close**.
 5. In **Activity history**, open the saved interaction and confirm it shows the outcome code and summary.
 
-If the workspace reports a save error, keep the wrap-up panel open and retry. If the error persists, give your supervisor the interaction ID and the error message.
+If a save error appears, keep the wrap-up panel open and retry. If the error persists, give your supervisor the interaction ID and the error message.
 
 ## Related task
 

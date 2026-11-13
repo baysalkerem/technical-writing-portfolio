@@ -9,10 +9,10 @@ import PortfolioNotice from '@site/src/components/PortfolioNotice';
 <PortfolioNotice />
 
 :::tip Writing approach
-This guide introduces only the interface elements needed to complete a task. Detailed configuration belongs in the Administrator Guide.
+Each task covers only the interface elements you need. For configuration, see the [Administrator Guide](../admin-guide/overview.md).
 :::
 
-Nexus Connect Workspace helps contact center agents manage availability and respond to customer conversations from one place.
+Use Nexus Connect Workspace to manage your availability and respond to customers.
 
 ## Common tasks
 
@@ -23,7 +23,7 @@ Nexus Connect Workspace helps contact center agents manage availability and resp
 
 | Area | Purpose |
 | --- | --- |
-| Availability selector | Set whether the workspace can offer you work |
-| Queue status | Check whether an assigned queue is ready to offer interactions |
+| Availability selector | Set whether you can receive new interactions |
+| Queue status | Check whether you can receive interactions from an assigned queue |
 | Interaction panel | View active conversations and customer context |
 | Activity history | Review recent interactions and outcomes |

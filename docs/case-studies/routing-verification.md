@@ -13,11 +13,11 @@ In this editorial case study, I revised a procedure for administrators configuri
 
 ## Before
 
-The test made one agent available and checked whether that agent received an offer. That confirmed the queue could deliver an interaction. With only one eligible agent, the administrator had no way to verify how the policy chose between agents.
+The administrator made one agent available and checked for an offer. That confirmed delivery. With one eligible agent, the administrator couldn’t verify who would receive the first offer when two agents were available.
 
 ## After
 
-The revised test uses two eligible agents in the same queue. One becomes available earlier so the administrator can predict who should receive the first offer. If the result differs, the procedure directs the administrator to compare eligibility, idle time, and the offer recipient in the routing event log.
+The administrator tests with two eligible agents in the same queue. The agent who becomes available first should receive the first offer. If the result differs, the administrator checks eligibility, idle time, and the offer recipient in the routing event log.
 
 ## Why I used a flowchart
 
