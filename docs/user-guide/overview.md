@@ -4,6 +4,10 @@ sidebar_position: 1
 ---
 # Work in Nexus Connect
 
+:::tip Writing approach
+This guide introduces only the interface elements needed to complete a task. Detailed configuration belongs in the Administrator Guide.
+:::
+
 Nexus Connect Workspace helps contact center agents manage availability and respond to customer conversations from one place.
 
 ## Common tasks
@@ -19,7 +23,3 @@ Nexus Connect Workspace helps contact center agents manage availability and resp
 | Queue status | Check whether an assigned queue is ready to offer interactions |
 | Interaction panel | View active conversations and customer context |
 | Activity history | Review recent interactions and outcomes |
-
-:::tip Writing approach
-This guide introduces only the interface elements needed to complete a task. Detailed configuration belongs in the Administrator Guide.
-:::
