@@ -49,6 +49,10 @@
   font-weight: 500;
 }
 
+.menu__link--sublist {
+  font-weight: 700;
+}
+
 .navbar__link--active,
 .menu__link--active:not(.menu__link--sublist) {
   font-weight: 650;
