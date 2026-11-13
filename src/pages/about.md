@@ -15,6 +15,10 @@ I write task-oriented user guides, administrator procedures, and operational wor
 - **Treat accuracy as a workflow.** Trace requirements, review with experts, and verify changes.
 - **Build for maintenance.** Use structured authoring, reusable content, and version control where appropriate.
 
+## Style guides and editorial standards
+
+I follow the designated style guide for each project and apply the organization’s approved terminology and documentation templates. I’m familiar with the Google developer documentation style guide, the Microsoft Writing Style Guide, and The Chicago Manual of Style. I document recurring editorial decisions so writers and reviewers can apply them consistently.
+
 ## Tools and domains
 
 DITA, Oxygen XML Editor, SDL Tridion Docs, Confluence, Jira, Markdown, HTML, CSS, and documentation-as-code workflows. Domains include SIP/VoIP, cloud communications, CRM integrations, and lifecycle management.
