@@ -5,14 +5,14 @@ import styles from './index.module.css';
 
 const sections = [
   {
-    title: 'User Guide',
+    title: 'User guide',
     samples: [
       {title: 'Set your availability', to: '/docs/user-guide/manage-availability'},
       {title: 'Handle a chat interaction', to: '/docs/user-guide/handle-interaction'},
     ],
   },
   {
-    title: 'Administrator Guide',
+    title: 'Administrator guide',
     samples: [
       {title: 'Create an agent account', to: '/docs/admin-guide/create-user'},
       {title: 'Configure longest-idle routing', to: '/docs/admin-guide/configure-routing'},
@@ -27,14 +27,14 @@ const sections = [
   {
     title: 'Operations',
     samples: [
-      {title: 'Upgrading a deployment', to: '/docs/operations/upgrade-workflow'},
+      {title: 'Upgrade a deployment', to: '/docs/operations/upgrade-workflow'},
       {title: 'Troubleshoot common issues', to: '/docs/operations/troubleshooting'},
     ],
   },
   {
     title: 'Case studies',
     samples: [
-      {title: 'Revising a routing verification procedure', to: '/docs/case-studies/routing-verification'},
+      {title: 'How I revised a routing test', to: '/docs/case-studies/routing-verification'},
     ],
   },
 ];
@@ -42,7 +42,7 @@ const sections = [
 export default function Home() {
   return (
     <Layout
-      title="Technical Writing Portfolio"
+      title="Technical writing portfolio"
       description="User, administrator, integration, and operations documentation samples by Kerem Baysal.">
       <main className={styles.index}>
         <header className={styles.intro}>

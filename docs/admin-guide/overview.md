@@ -1,5 +1,5 @@
 ---
-title: Administrator Guide
+title: Administrator guide
 sidebar_position: 1
 pagination_prev: null
 ---
@@ -18,4 +18,4 @@ Use the administration console to manage users, queue membership, and interactio
 
 ## Before you configure the platform
 
-Verify that your account has the required administrative permissions and that you are working in the intended environment.
+Check that you have the required permissions and that you’re in the intended environment.

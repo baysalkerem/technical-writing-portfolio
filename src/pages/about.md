@@ -3,29 +3,30 @@ title: About
 ---
 # About my work
 
-I am a technical writer focused on making complex enterprise software understandable and usable. My experience spans unified communications, contact centers, cloud and hybrid deployments, and enterprise integrations.
+I write documentation for enterprise software, including unified communications, contact centers, cloud and hybrid deployments, and integrations.
 
-I write task-oriented user guides, administrator procedures, and operational workflows. I collaborate with subject-matter experts, engineers, product teams, and reviewers to validate technical accuracy and improve documentation usability.
+I write user guides, administrator procedures, and operational workflows. I work with engineers, product teams, and other reviewers to verify instructions and check that readers can complete the task.
 
 ## My documentation principles
 
-- **Start with the user goal.** Organize content around tasks rather than interface inventories.
-- **Make actions unambiguous.** Use direct verbs, one instruction per step, and meaningful results.
-- **Design for different roles.** Separate end-user tasks from administrative and operational responsibilities.
-- **Treat accuracy as a workflow.** Trace requirements, review with experts, and verify changes.
-- **Build for maintenance.** Use structured authoring, reusable content, and version control where appropriate.
+- Organize topics around what readers need to do.
+- Start steps with action verbs and show how to verify the result.
+- Write for the role that performs the task.
+- Trace requirements, review instructions with experts, and verify changes.
+- Use structured authoring, reusable content, and version control.
 
 ## Style guides and editorial standards
 
-For each project, I use the designated style guide, approved terminology, and documentation templates. I’m familiar with the Google developer documentation style guide, the Microsoft Writing Style Guide, and The Chicago Manual of Style. I document recurring editorial decisions for writers and reviewers.
+For each project, I use the designated style guide, approved terminology, and documentation templates. This portfolio follows the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/). I’m also familiar with the Google developer documentation style guide and The Chicago Manual of Style. I record recurring editorial decisions for writers and reviewers.
 
 ## Tools and domains
 
-DITA, Oxygen XML Editor, SDL Tridion Docs, Adobe Experience Manager, Confluence, Jira, Markdown, HTML, CSS, Git, Docusaurus, and documentation-as-code workflows. Domains include SIP/VoIP, cloud communications, CRM integrations, and lifecycle management.
+- **Tools and formats** — DITA, Oxygen XML Editor, SDL Tridion Docs, Adobe Experience Manager, Confluence, Jira, Markdown, HTML, CSS, Git, and Docusaurus.
+- **Workflows and domains** — Documentation as code, Session Initiation Protocol (SIP), voice over IP (VoIP), cloud communications, customer relationship management (CRM) integrations, and lifecycle management.
 
 ## Background
 
-I hold a BA in Russian Translation and Interpreting and an MA in Applied Linguistics and Text Analytics. My linguistic background informs my approach to information structure, terminology, and clarity.
+I hold a BA in Russian Translation and Interpreting and an MA in Applied Linguistics and Text Analytics. I apply that training to information structure and terminology.
 
 ## Contact
 

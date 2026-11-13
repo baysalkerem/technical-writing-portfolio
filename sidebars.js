@@ -3,7 +3,7 @@ module.exports = {
     'intro',
     {
       type: 'category',
-      label: 'User Guide',
+      label: 'User guide',
       items: [
         {type: 'doc', id: 'user-guide/overview', label: 'Overview'},
         'user-guide/manage-availability',
@@ -12,7 +12,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Administrator Guide',
+      label: 'Administrator guide',
       items: [
         {type: 'doc', id: 'admin-guide/overview', label: 'Overview'},
         'admin-guide/create-user',

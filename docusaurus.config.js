@@ -50,7 +50,7 @@ const diagramStyles = `
 `;
 
 const config = {
-  title: 'Kerem Baysal | Technical Writing',
+  title: 'Kerem Baysal | Technical writing',
   tagline: 'User and administrator documentation samples',
   favicon: 'img/favicon.svg',
   url: 'https://baysalkerem.github.io',

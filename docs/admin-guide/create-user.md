@@ -18,7 +18,7 @@ Create an account and assign the agent to a queue. The agent activates the accou
 
 ## Create the account
 
-1. In the administration console, go to **Identity > Users**.
+1. In the administration console, go to **Identity** > **Users**.
 2. Select **Create user**.
 3. Enter the agent's name and work email address.
 4. In **Role**, select **Agent**.
@@ -28,16 +28,19 @@ Create an account and assign the agent to a queue. The agent activates the accou
 ## Verify the account
 
 1. Search the user list for the new agent's work email address.
-2. Open the account and confirm the **Agent** role and expected queue assignment.
-3. Ask the agent to open the activation link in the invitation.
-4. Ask the agent to confirm they can sign in to Nexus Connect Workspace.
-5. Refresh the user list and confirm the account status is **Active**.
+2. Open the account.
+3. Confirm the **Agent** role and queue assignment.
+4. Ask the agent to activate the account from the invitation.
+5. Ask the agent to confirm they can sign in to Nexus Connect Workspace.
+6. Refresh the user list and confirm that the account status is **Active**.
 
 The agent can now [set their availability](../user-guide/manage-availability.md).
 
-## If the invitation does not arrive
+## Resend a missing invitation {/* #if-the-invitation-does-not-arrive */}
 
-1. Open the existing account in **Identity > Users**.
+1. In **Identity** > **Users**, open the account.
 2. Confirm the work email address with the agent and correct it if needed.
 3. Select **Resend invitation** while the account is **Pending activation**.
-4. Ask the agent to confirm receipt. If the invitation still does not arrive, send the account status and time of the last attempt to your identity support team.
+4. Ask the agent to confirm they received the invitation.
+
+If the invitation still doesn’t arrive, send the account status and the time you last sent the invitation to your identity support team.
