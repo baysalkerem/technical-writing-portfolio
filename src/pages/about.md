@@ -1,9 +1,15 @@
 ---
 title: About
 ---
+import portrait from '@site/static/img/kerem-baysal.jpg';
+import styles from './about.module.css';
+
 # About me
 
-Hi, I’m Kerem. I write user guides, administrator procedures, and upgrade workflows for enterprise software. Much of my work is in unified communications and contact centers. I’ve documented cloud and hybrid deployments, integrations, and communications hardware.
+<div className={styles.intro}>
+  <p>Hi, I’m Kerem. I write user guides, administrator procedures, and upgrade workflows for enterprise software. Much of my work is in unified communications and contact centers. I’ve documented cloud and hybrid deployments, integrations, and communications hardware.</p>
+  <img className={styles.portrait} src={portrait} alt="Portrait of Kerem Baysal" width="709" height="1536" />
+</div>
 
 <div id="my-documentation-principles"></div>
 

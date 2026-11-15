@@ -1,0 +1,31 @@
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(1rem, 4vw, 2.5rem);
+  margin-bottom: var(--ifm-paragraph-margin-bottom);
+}
+
+.intro p {
+  margin: 0;
+}
+
+.portrait {
+  width: clamp(8rem, 16vw, 11rem);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 55%;
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
+
+  .portrait {
+    grid-row: 1;
+    justify-self: center;
+  }
+}
