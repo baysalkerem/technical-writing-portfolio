@@ -3,7 +3,7 @@ title: About
 ---
 # About me
 
-Hi, I’m Kerem Baysal. I write user guides, administrator procedures, and upgrade workflows for enterprise software. Much of my work is in unified communications and contact centers, including cloud and hybrid deployments and integrations.
+Hi, I’m Kerem. I write user guides, administrator procedures, and upgrade workflows for enterprise software. Much of my work is in unified communications and contact centers, including cloud and hybrid deployments and integrations.
 
 I’ve also translated and edited Russian literature for Turkish readers. In both kinds of work, I spend a lot of time on small choices, like whether a term is clear the first time it appears or whether a sentence needs to be there at all.
 
