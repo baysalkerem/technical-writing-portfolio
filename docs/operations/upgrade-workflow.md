@@ -1,6 +1,5 @@
 ---
 title: Upgrade a deployment
-pagination_prev: null
 ---
 # Upgrade a deployment
 

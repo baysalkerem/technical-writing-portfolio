@@ -1,6 +1,5 @@
 ---
 title: Connect a CRM integration
-pagination_prev: null
 pagination_next: null
 ---
 # Connect a CRM integration

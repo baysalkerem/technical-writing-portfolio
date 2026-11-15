@@ -36,7 +36,18 @@ const librarySamples = [
     task: 'Manage users and configure routing',
     to: '/docs/admin-guide/overview',
   },
-  ...integrationAndOperationsSamples,
+  {
+    title: 'Integrations',
+    audience: 'Integration administrators',
+    task: 'Connect a CRM and verify the data agents see',
+    to: '/docs/integrations/overview',
+  },
+  {
+    title: 'Operations',
+    audience: 'Platform operators',
+    task: 'Validate upgrades and troubleshoot common issues',
+    to: '/docs/operations/overview',
+  },
 ];
 
 export const homepageSamples = [

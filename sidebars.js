@@ -19,7 +19,22 @@ module.exports = {
         'admin-guide/configure-routing',
       ],
     },
-    {type: 'category', label: 'Integrations', items: ['integrations/crm-connection']},
-    {type: 'category', label: 'Operations', items: ['operations/upgrade-workflow', 'operations/troubleshooting']},
+    {
+      type: 'category',
+      label: 'Integrations',
+      items: [
+        {type: 'doc', id: 'integrations/overview', label: 'Overview'},
+        'integrations/crm-connection',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Operations',
+      items: [
+        {type: 'doc', id: 'operations/overview', label: 'Overview'},
+        'operations/upgrade-workflow',
+        'operations/troubleshooting',
+      ],
+    },
   ]
 };
