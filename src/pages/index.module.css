@@ -69,12 +69,28 @@
 
 .samples {
   --sample-card-min-width: 17rem;
+  container: homepage-samples / inline-size;
   margin-top: clamp(2rem, 5vw, 3.5rem);
 }
 
 .samples > h2 {
   margin-bottom: 0;
   font-size: 1.5rem;
+}
+
+/* Match the grid's 17rem minimum card width and 1rem gap. */
+@container homepage-samples (35rem <= width < 53rem) {
+  .samples > ul > li:last-child:nth-child(2n + 1) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: calc((100% - 1rem) / 2);
+  }
+}
+
+@container homepage-samples (width >= 53rem) {
+  .samples > ul > li:last-child:nth-child(3n + 1) {
+    grid-column: 2;
+  }
 }
 
 .about a {

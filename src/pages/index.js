@@ -25,10 +25,10 @@ export default function Home() {
           <aside className={styles.about} aria-labelledby="about-preview">
             <h2 id="about-preview">About me</h2>
             <p>
-              I’m Kerem Baysal. I write documentation for unified communications
+              Hi, I am Kerem. I write documentation for unified communications
               and contact centers.
             </p>
-            <Link to="/about">More about me</Link>
+            <Link to="/about">See more about me</Link>
           </aside>
         </div>
 
