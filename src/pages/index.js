@@ -26,8 +26,7 @@ export default function Home() {
             <h2 id="about-preview">About me</h2>
             <p>
               I’m Kerem Baysal. I write documentation for unified communications
-              and contact centers. I’ve also translated and edited Russian
-              literature for Turkish readers.
+              and contact centers.
             </p>
             <Link to="/about">More about me</Link>
           </aside>
