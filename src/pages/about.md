@@ -36,7 +36,7 @@ I’ve documented Session Initiation Protocol (SIP), voice over IP (VoIP), commu
 
 ## Beyond technical writing
 
-I studied Russian Translation and Interpreting for my BA and Applied Linguistics and Text Analytics for my MA. I also translate and edit Russian literature for Turkish readers. One of the books I’ve translated is Viktor Shklovsky’s biography of Leo Tolstoy. You can find it in my [translation portfolio](https://baysalkerem.github.io/translation/en/).
+I studied Russian Translation and Interpreting for my BA and Applied Linguistics and Text Analytics for my MA. I also translate and edit Russian literature for Turkish readers. You can find my published work in my [translation portfolio](https://baysalkerem.github.io/translation/en/).
 
 ## Contact
 
