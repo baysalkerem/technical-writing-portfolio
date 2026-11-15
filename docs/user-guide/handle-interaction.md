@@ -3,11 +3,7 @@ title: Handle a chat interaction
 sidebar_position: 3
 pagination_next: null
 ---
-import PortfolioNotice from '@site/src/components/PortfolioNotice';
-
 # Handle a chat interaction
-
-<PortfolioNotice />
 
 Accept an incoming chat, reply to the customer, and record the outcome.
 

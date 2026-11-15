@@ -2,11 +2,7 @@
 title: Troubleshoot common issues
 pagination_next: null
 ---
-import PortfolioNotice from '@site/src/components/PortfolioNotice';
-
 # Troubleshoot common issues
-
-<PortfolioNotice />
 
 Start with the checks you can perform. Escalate issues that require another team’s access.
 

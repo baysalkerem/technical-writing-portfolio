@@ -2,11 +2,7 @@
 title: Create an agent account
 sidebar_position: 2
 ---
-import PortfolioNotice from '@site/src/components/PortfolioNotice';
-
 # Create an agent account
-
-<PortfolioNotice />
 
 Create an account and assign the agent to a queue. The agent activates the account from an email invitation.
 

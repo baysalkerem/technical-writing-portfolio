@@ -2,11 +2,7 @@
 title: Set your availability
 sidebar_position: 2
 ---
-import PortfolioNotice from '@site/src/components/PortfolioNotice';
-
 # Set your availability
-
-<PortfolioNotice />
 
 Set your availability to control when you can receive new customer interactions.
 

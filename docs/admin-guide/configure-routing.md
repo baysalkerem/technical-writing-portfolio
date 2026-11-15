@@ -3,11 +3,7 @@ title: Configure longest-idle routing
 sidebar_position: 3
 pagination_next: null
 ---
-import PortfolioNotice from '@site/src/components/PortfolioNotice';
-
 # Configure longest-idle routing
-
-<PortfolioNotice />
 
 With the **Longest idle** policy, the eligible agent with the longest idle time receives the first offer. Idle time starts when the agent sets their status to **Available** or returns to **Available** after wrap-up.
 

@@ -2,11 +2,7 @@
 title: Upgrade a deployment
 pagination_prev: null
 ---
-import PortfolioNotice from '@site/src/components/PortfolioNotice';
-
 # Upgrade a deployment
-
-<PortfolioNotice />
 
 :::note Upgrade and recovery runbook
 Follow the approved runbook for your version to upgrade or recover the deployment.

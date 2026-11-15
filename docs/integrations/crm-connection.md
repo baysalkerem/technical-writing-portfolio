@@ -3,11 +3,7 @@ title: Connect a CRM integration
 pagination_prev: null
 pagination_next: null
 ---
-import PortfolioNotice from '@site/src/components/PortfolioNotice';
-
 # Connect a CRM integration
-
-<PortfolioNotice />
 
 Connect a customer relationship management (CRM) service so agents can view the matching customer record during an interaction.
 
