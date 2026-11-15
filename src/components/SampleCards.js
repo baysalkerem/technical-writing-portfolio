@@ -2,19 +2,7 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import styles from './SampleCards.module.css';
 
-const samples = [
-  {
-    title: 'User guide',
-    audience: 'Contact center agents',
-    task: 'Set availability and handle chats',
-    to: '/docs/user-guide/overview',
-  },
-  {
-    title: 'Administrator guide',
-    audience: 'System administrators',
-    task: 'Manage users and configure routing',
-    to: '/docs/admin-guide/overview',
-  },
+const integrationAndOperationsSamples = [
   {
     title: 'Connect a CRM integration',
     audience: 'Integration administrators',
@@ -35,7 +23,51 @@ const samples = [
   },
 ];
 
-export default function SampleCards() {
+const librarySamples = [
+  {
+    title: 'User guide',
+    audience: 'Contact center agents',
+    task: 'Set availability and handle chats',
+    to: '/docs/user-guide/overview',
+  },
+  {
+    title: 'Administrator guide',
+    audience: 'System administrators',
+    task: 'Manage users and configure routing',
+    to: '/docs/admin-guide/overview',
+  },
+  ...integrationAndOperationsSamples,
+];
+
+export const homepageSamples = [
+  {
+    title: 'Set your availability',
+    audience: 'Contact center agents',
+    task: 'Get ready for incoming interactions or pause new offers',
+    to: '/docs/user-guide/manage-availability',
+  },
+  {
+    title: 'Handle a chat interaction',
+    audience: 'Contact center agents',
+    task: 'Reply to a customer and record the outcome',
+    to: '/docs/user-guide/handle-interaction',
+  },
+  {
+    title: 'Create an agent account',
+    audience: 'System administrators',
+    task: 'Assign an agent to a queue and verify account activation',
+    to: '/docs/admin-guide/create-user',
+  },
+  {
+    title: 'Configure longest-idle routing',
+    audience: 'System administrators',
+    task: 'Set the routing policy and verify who receives the first offer',
+    to: '/docs/admin-guide/configure-routing',
+  },
+  ...integrationAndOperationsSamples,
+];
+
+export default function SampleCards({samples = librarySamples}) {
   return (
     <ul className={styles.cards} aria-label="Writing samples">
       {samples.map(({title, audience, task, to}) => (

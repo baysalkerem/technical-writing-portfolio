@@ -96,6 +96,22 @@ const config = {
         {type: 'docSidebar', sidebarId: 'docs', label: 'Writing samples', position: 'left'},
         {to: '/about', label: 'About', position: 'left'},
         {href: 'https://github.com/baysalkerem/technical-writing-portfolio', label: 'GitHub', position: 'right'},
+        {
+          href: 'https://www.linkedin.com/in/mehmet-kerem-baysal/',
+          html: '<span class="profile-icon" aria-hidden="true"></span><span class="profile-label">LinkedIn</span>',
+          className: 'profile-link profile-link--linkedin',
+          position: 'right',
+          title: 'LinkedIn profile',
+          'aria-label': 'LinkedIn profile (opens in a new tab)',
+        },
+        {
+          href: 'https://www.upwork.com/freelancers/~01b6e792ed6fd22327?mp_source=share',
+          html: '<span class="profile-icon" aria-hidden="true"></span><span class="profile-label">Upwork</span>',
+          className: 'profile-link profile-link--upwork',
+          position: 'right',
+          title: 'Upwork profile',
+          'aria-label': 'Upwork profile (opens in a new tab)',
+        },
       ],
     },
     footer: {

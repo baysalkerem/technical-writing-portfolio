@@ -1,17 +1,22 @@
 .index {
-  width: min(100%, 56rem);
+  width: min(100%, 72rem);
   margin-inline: auto;
-  padding: clamp(2rem, 6vw, 4.75rem) clamp(1.25rem, 5vw, 2.5rem) 3rem;
+  padding: clamp(2rem, 6vw, 4.5rem) clamp(1.25rem, 5vw, 2.5rem) 3rem;
 }
 
-.intro {
-  margin-bottom: clamp(1.75rem, 5vw, 3rem);
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(16rem, 21rem);
+  align-items: start;
+  gap: clamp(2rem, 6vw, 5rem);
 }
 
 .intro h1 {
-  margin-bottom: 0.75rem;
-  font-size: clamp(2.25rem, 5.5vw, 3.5rem);
+  max-width: 18ch;
+  margin-bottom: 1rem;
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
   line-height: 1.1;
+  text-wrap: balance;
 }
 
 .intro p {
@@ -22,40 +27,65 @@
   line-height: 1.6;
 }
 
-.section {
-  display: grid;
-  grid-template-columns: 14rem minmax(0, 1fr);
-  gap: 1rem;
-  padding-block: 1rem;
-  border-top: 1px solid var(--portfolio-border);
+.primaryLink {
+  --primary-link-text: #fff;
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 0.5rem;
+  background: var(--ifm-color-primary);
+  color: var(--primary-link-text);
+  font-weight: 650;
 }
 
-.section:last-child {
-  border-bottom: 1px solid var(--portfolio-border);
+[data-theme='dark'] .primaryLink {
+  --primary-link-text: #161c21;
 }
 
-.section h2 {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.75;
+.primaryLink:hover,
+.primaryLink:focus-visible {
+  background: var(--portfolio-surface-muted);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
 }
 
-.section ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.about {
+  padding: clamp(1.125rem, 3vw, 1.75rem);
+  border: 1px solid var(--portfolio-border);
+  border-radius: 0.875rem;
+  background: var(--portfolio-surface-muted);
 }
 
-.section a {
+.about h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.about p {
+  margin-bottom: 0.75rem;
+  color: var(--portfolio-text-secondary);
+}
+
+.samples {
+  --sample-card-min-width: 17rem;
+  margin-top: clamp(2rem, 5vw, 3.5rem);
+}
+
+.samples > h2 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.about a {
   display: inline-block;
   padding-block: 0.125rem;
   text-decoration: underline;
   text-underline-offset: 0.17em;
 }
 
-@media (max-width: 640px) {
-  .section {
+@media (max-width: 760px) {
+  .hero {
     grid-template-columns: 1fr;
-    gap: 0.25rem;
   }
 }
