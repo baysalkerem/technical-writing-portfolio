@@ -29,4 +29,4 @@ I studied Russian Translation and Interpreting for my BA and Applied Linguistics
 
 ## Contact
 
-If you’d like to work together, [message me on LinkedIn](https://www.linkedin.com/in/mehmet-kerem-baysal/).
+If you’d like to work together, [message me on LinkedIn](https://www.linkedin.com/in/mehmet-kerem-baysal/) or [view my Upwork profile](https://www.upwork.com/freelancers/~01b6e792ed6fd22327?mp_source=share).
