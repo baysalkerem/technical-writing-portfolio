@@ -91,7 +91,7 @@ const config = {
       },
     },
     navbar: {
-      title: 'Kerem Baysal',
+      title: 'Nexus Connect',
       items: [
         {type: 'docSidebar', sidebarId: 'docs', label: 'Writing samples', position: 'left'},
         {to: '/about', label: 'About', position: 'left'},
