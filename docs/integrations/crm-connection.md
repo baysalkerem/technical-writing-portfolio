@@ -2,7 +2,12 @@
 title: Connect a CRM integration
 pagination_next: null
 ---
+import {StyleText} from '@site/src/components/WritingStyle';
+import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
+
 # Connect a CRM integration
+
+<WritingStyleSwitch />
 
 Connect a customer relationship management (CRM) service so agents can view the matching customer record during an interaction.
 
@@ -16,15 +21,15 @@ Connect a customer relationship management (CRM) service so agents can view the 
 
 ## Configure the connection
 
-1. Go to **Integrations** > **CRM**.
-2. Select **Add connection**.
+1. <StyleText google="In Nexus Connect, click">Go to</StyleText> **Integrations** > **CRM**.
+2. <StyleText google="Click">Select</StyleText> **Add connection**.
 3. Enter a descriptive connection name.
 4. Select your CRM provider.
-5. Select **Authorize**.
+5. <StyleText google="Click">Select</StyleText> **Authorize**.
 6. Follow the provider’s authorization steps.
 7. In **Field mapping**, map the interaction’s **Customer ID** to the CRM record’s **External customer ID**. Both fields must contain the same text value, such as `CUST-1042`.
-8. Select **Test connection**.
-9. If the test passes, select **Save**.
+8. <StyleText google="Click">Select</StyleText> **Test connection**.
+9. If the test passes, <StyleText google="click">select</StyleText> **Save**.
 
 If the test fails, [resolve the error](#if-the-test-fails) and rerun the test before saving.
 

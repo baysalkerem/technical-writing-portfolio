@@ -2,6 +2,8 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import SampleCards, {homepageSamples} from '../components/SampleCards';
+import {StyleText} from '../components/WritingStyle';
+import WritingStyleSwitch from '../components/WritingStyleSwitch';
 import styles from './index.module.css';
 
 export default function Home() {
@@ -13,8 +15,10 @@ export default function Home() {
         <div className={styles.hero}>
           <header className={styles.intro}>
             <h1>Technical writing for enterprise software</h1>
+            <WritingStyleSwitch />
             <p>
-              Explore user guides, administrator procedures, and operational
+              <StyleText google="To see how I document enterprise software, explore">Explore</StyleText>{' '}
+              user guides, administrator procedures, and operational
               workflows for Nexus Connect, a fictional cloud communications platform.
             </p>
             <Link className={styles.primaryLink} to="/docs/intro">

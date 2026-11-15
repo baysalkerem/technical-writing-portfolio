@@ -1,5 +1,6 @@
 import React from 'react';
 import Admonition from '@theme/Admonition';
+import {StyleGuideLink} from './WritingStyle';
 
 export default function PortfolioNotice() {
   return (
@@ -10,8 +11,7 @@ export default function PortfolioNotice() {
         used with production systems.
       </p>
       <p>
-        These samples follow the{' '}
-        <a href="https://learn.microsoft.com/en-us/style-guide/welcome/">Microsoft Writing Style Guide</a>.
+        This version follows the <StyleGuideLink />.
       </p>
     </Admonition>
   );

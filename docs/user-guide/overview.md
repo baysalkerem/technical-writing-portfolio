@@ -3,8 +3,11 @@ title: User guide
 sidebar_position: 1
 ---
 import PortfolioNotice from '@site/src/components/PortfolioNotice';
+import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
 
 # Nexus Connect overview
+
+<WritingStyleSwitch />
 
 <PortfolioNotice />
 

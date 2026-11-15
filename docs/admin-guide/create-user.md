@@ -2,7 +2,12 @@
 title: Create an agent account
 sidebar_position: 2
 ---
+import {StyleText} from '@site/src/components/WritingStyle';
+import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
+
 # Create an agent account
+
+<WritingStyleSwitch />
 
 Create an account and assign the agent to a queue. The agent activates the account from an email invitation.
 
@@ -14,16 +19,16 @@ Create an account and assign the agent to a queue. The agent activates the accou
 
 ## Create the account
 
-1. In the administration console, go to **Identity** > **Users**.
-2. Select **Create user**.
+1. In the administration console, <StyleText google="click">go to</StyleText> **Identity** > **Users**.
+2. <StyleText google="Click">Select</StyleText> **Create user**.
 3. Enter the agent's name and work email address.
 4. In **Role**, select **Agent**.
 5. In **Queue assignments**, select the required queue.
-6. Select **Create**. An invitation goes to the agent’s work email address, and the account appears as **Pending activation**.
+6. <StyleText google="Click">Select</StyleText> **Create**. An invitation goes to the agent’s work email address, and the account appears as **Pending activation**.
 
 ## Verify the account
 
-1. Search the user list for the new agent's work email address.
+1. <StyleText google="In the administration console, search">Search</StyleText> the user list for the new agent's work email address.
 2. Open the account.
 3. Confirm the **Agent** role and queue assignment.
 4. Ask the agent to activate the account from the invitation.
@@ -36,7 +41,7 @@ The agent can now [set their availability](../user-guide/manage-availability.md)
 
 1. In **Identity** > **Users**, open the account.
 2. Confirm the work email address with the agent and correct it if needed.
-3. Select **Resend invitation** while the account is **Pending activation**.
+3. <StyleText google={<>If the account is <strong>Pending activation</strong>, click <strong>Resend invitation</strong>.</>}>Select <strong>Resend invitation</strong> while the account is <strong>Pending activation</strong>.</StyleText>
 4. Ask the agent to confirm they received the invitation.
 
 If the invitation still doesn’t arrive, send the account status and the time you last sent the invitation to your identity support team.

@@ -3,8 +3,11 @@ title: Operations overview
 pagination_prev: null
 ---
 import PortfolioNotice from '@site/src/components/PortfolioNotice';
+import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
 
 # Operate Nexus Connect
+
+<WritingStyleSwitch />
 
 <PortfolioNotice />
 

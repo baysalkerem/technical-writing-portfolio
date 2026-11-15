@@ -3,9 +3,13 @@ title: About
 ---
 import Link from '@docusaurus/Link';
 import portrait from '@site/static/img/kerem-baysal.jpg';
+import {StyleGuideLink} from '@site/src/components/WritingStyle';
+import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
 import styles from './about.module.css';
 
 # About me
+
+<WritingStyleSwitch />
 
 <div className={styles.intro}>
   <p>Hi, I’m Kerem Baysal. I’m a technical writer working mainly in unified communications and contact centers. I write for agents handling customer chats, administrators setting up integrations, and operators planning upgrades.</p>
@@ -26,7 +30,7 @@ When I draft a procedure, I ask myself, “How will the reader know it worked?�
 
 I follow the team’s style guide, terminology, and templates. If we keep running into the same editorial question, I write down what we decide so the next writer or reviewer can use it.
 
-For this portfolio, I use the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/). I’m also familiar with the Google developer documentation style guide and The Chicago Manual of Style.
+The samples in this view follow the <StyleGuideLink />. I’m also familiar with The Chicago Manual of Style.
 
 ## Tools and domains
 

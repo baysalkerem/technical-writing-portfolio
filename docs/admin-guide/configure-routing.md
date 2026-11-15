@@ -3,7 +3,12 @@ title: Configure longest-idle routing
 sidebar_position: 3
 pagination_next: null
 ---
+import {StyleText} from '@site/src/components/WritingStyle';
+import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
+
 # Configure longest-idle routing
+
+<WritingStyleSwitch />
 
 With the **Longest idle** policy, the eligible agent with the longest idle time receives the first offer. Idle time starts when the agent sets their status to **Available** or returns to **Available** after wrap-up.
 
@@ -18,11 +23,11 @@ Configure and validate the policy in the test environment before applying it to 
 
 ## Configure the policy
 
-1. Go to **Routing** > **Queues**.
+1. <StyleText google="In the administration console, click">Go to</StyleText> **Routing** > **Queues**.
 2. Open the queue you’re configuring. Start with the test queue.
 3. In **Routing policy**, select **Longest idle**.
 4. In **Offer timeout**, enter the approved value in seconds.
-5. Select **Save**. The console displays a confirmation message.
+5. <StyleText google="Click">Select</StyleText> **Save**. The console displays a confirmation message.
 
 ## Validate routing
 
@@ -49,7 +54,7 @@ flowchart TD
 
 If the second agent receives the first offer or neither agent receives one, check the routing event log.
 
-1. Go to **Routing** > **Event log**.
+1. <StyleText google="In the administration console, click">Go to</StyleText> **Routing** > **Event log**.
 2. Find the event by interaction ID. If you don’t have the ID, use the queue, channel, and test time, including the time zone.
 3. If you find the event, check the queue, each agent’s eligibility and idle time, and who received the offer. If no event appears, record that result and check whether the interaction reached the intended queue.
 4. Fix the issue and repeat the test.

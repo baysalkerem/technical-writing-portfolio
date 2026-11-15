@@ -1,7 +1,12 @@
 ---
 title: Upgrade a deployment
 ---
+import {StyleText} from '@site/src/components/WritingStyle';
+import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
+
 # Upgrade a deployment
+
+<WritingStyleSwitch />
 
 :::note Upgrade and recovery runbook
 Follow the approved runbook for your version to upgrade or recover the deployment.
@@ -25,7 +30,7 @@ Test interaction delivery before and after an upgrade. Escalate any post-upgrade
 3. Upgrade the component in the order specified in the runbook.
 4. [Retest interaction delivery](#test-interaction-delivery) with the same queue, channel, agent, and time limit. If the test fails, [investigate and escalate](#decision-point).
 5. After the post-upgrade test passes, run the remaining service checks in the runbook.
-6. Close the change after the required service checks pass. Record the final version and validation results.
+6. <StyleText google="After the required service checks pass, close the change.">Close the change after the required service checks pass.</StyleText> Record the final version and validation results.
 
 ## Test interaction delivery
 
@@ -53,11 +58,11 @@ flowchart TD
     Review -->|No| Wait["Stay on hold"]:::hold
 ```
 
-For example, with a 15-second limit, an offer at four seconds passes. After the upgrade, the test fails if no offer arrives within 15 seconds.
+For example, with a 15-second limit, an offer at four seconds passes. <StyleText google="If no offer arrives within 15 seconds after the upgrade, the test fails.">After the upgrade, the test fails if no offer arrives within 15 seconds.</StyleText>
 
 1. Confirm that the test agent is **Available** and that the test queue shows **Ready**.
 2. In **Routing** > **Event log**, look up the test interaction. Record whether it reached the expected queue and whether the log shows an offer. If no event appears, record that result.
 3. [Collect and sanitize diagnostics](./troubleshooting.md#collect-diagnostic-details). Include the component and versions, queue, channel, test time and time zone, interaction ID if available, and both test results.
 4. Send the diagnostics to the change lead.
 5. Follow the change lead’s decision. If the lead approves recovery, follow the approved recovery plan and [retest interaction delivery](#test-interaction-delivery).
-6. Resume the upgrade only after the delivery test and required service checks pass and the change lead approves.
+6. <StyleText google="After the delivery test and required service checks pass and the change lead approves, resume the upgrade.">Resume the upgrade only after the delivery test and required service checks pass and the change lead approves.</StyleText>

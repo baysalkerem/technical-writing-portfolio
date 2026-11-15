@@ -2,7 +2,12 @@
 title: Troubleshoot common issues
 pagination_next: null
 ---
+import {StyleText} from '@site/src/components/WritingStyle';
+import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
+
 # Troubleshoot common issues
+
+<WritingStyleSwitch />
 
 Start with the checks you can perform. Escalate issues that require another team’s access.
 
@@ -18,7 +23,7 @@ Start with the checks you can perform. Escalate issues that require another team
 1. Record the time of the issue, including the time zone.
 2. Record the affected role, queue, and channel, as applicable.
 3. Capture the error message and any available interaction ID or correlation identifier. If no matching event appears in the log, record that finding with the queue, channel, and time you checked.
-4. Remove customer data, credentials, client secrets, and access tokens from logs, screenshots, and support tickets before sharing them.
+4. <StyleText google="Before sharing logs, screenshots, or support tickets, remove customer data, credentials, client secrets, and access tokens.">Remove customer data, credentials, client secrets, and access tokens from logs, screenshots, and support tickets before sharing them.</StyleText>
 5. Send the diagnostics to the responsible team through the approved support channel.
 
 After an approved change, repeat the affected check in a test environment and record whether the symptom persists.

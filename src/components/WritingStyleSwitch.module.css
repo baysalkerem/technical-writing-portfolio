@@ -1,0 +1,105 @@
+.switch {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  width: fit-content;
+  margin-block: 0 1rem;
+}
+
+.options {
+  display: flex;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid var(--portfolio-border);
+}
+
+.option {
+  position: relative;
+  cursor: pointer;
+}
+
+.option span {
+  display: flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding-inline: 0.75rem;
+  border-bottom: 2px solid transparent;
+  color: var(--portfolio-text-secondary);
+  font-size: 0.875rem;
+  font-weight: 650;
+}
+
+.option:hover span {
+  background: var(--portfolio-surface-muted);
+}
+
+.option input:checked + span {
+  border-bottom-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.option input:focus-visible + span {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: -2px;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.helpButton {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0.375rem;
+  background: transparent;
+  color: var(--portfolio-text-secondary);
+  cursor: pointer;
+  font: inherit;
+}
+
+.helpButton span {
+  display: grid;
+  place-items: center;
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.helpButton:hover,
+.helpButton[aria-expanded='true'] {
+  color: var(--ifm-color-primary);
+}
+
+.switch .helpText {
+  position: absolute;
+  z-index: 2;
+  inset-block-start: 100%;
+  inset-inline-start: 0;
+  width: min(16rem, calc(100vw - 2.5rem));
+  padding: 0.625rem 0.75rem;
+  margin: 0;
+  border: 1px solid var(--portfolio-border);
+  border-radius: 0.5rem;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 3px 12px rgb(0 0 0 / 12%);
+  color: var(--ifm-font-color-base);
+  font-size: 0.875rem;
+  line-height: 1.45;
+}

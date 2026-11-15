@@ -3,8 +3,11 @@ title: Integrations overview
 pagination_prev: null
 ---
 import PortfolioNotice from '@site/src/components/PortfolioNotice';
+import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
 
 # Integrate Nexus Connect
+
+<WritingStyleSwitch />
 
 <PortfolioNotice />
 

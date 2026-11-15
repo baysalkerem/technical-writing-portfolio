@@ -4,8 +4,11 @@ sidebar_position: 1
 pagination_prev: null
 ---
 import PortfolioNotice from '@site/src/components/PortfolioNotice';
+import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
 
 # Administer Nexus Connect
+
+<WritingStyleSwitch />
 
 <PortfolioNotice />
 
