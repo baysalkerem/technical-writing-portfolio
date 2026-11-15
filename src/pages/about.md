@@ -1,33 +1,32 @@
 ---
 title: About
 ---
-# About my work
+# About me
 
-I write documentation for enterprise software, including unified communications, contact centers, cloud and hybrid deployments, and integrations.
+Hi, I’m Kerem Baysal. I write user guides, administrator procedures, and upgrade workflows for enterprise software. Much of my work is in unified communications and contact centers, including cloud and hybrid deployments and integrations.
 
-I write user guides, administrator procedures, and operational workflows. I work with engineers, product teams, and other reviewers to verify instructions and check that readers can complete the task.
+I’ve also translated and edited Russian literature for Turkish readers. In both kinds of work, I spend a lot of time on small choices, like whether a term is clear the first time it appears or whether a sentence needs to be there at all.
 
-## My documentation principles
+## How I write {/* #my-documentation-principles */}
 
-- Organize topics around what readers need to do.
-- Start steps with action verbs and show how to verify the result.
-- Write for the role that performs the task.
-- Trace requirements, review instructions with experts, and verify changes.
-- Use structured authoring, reusable content, and version control.
+When I write a procedure, I ask myself, “How will the reader know it worked?” I start with what they need to do, then check the steps with engineers and product teams. I include what readers should see when a step works and what they can try if it fails.
 
 ## Style guides and editorial standards
 
-For each project, I use the designated style guide, approved terminology, and documentation templates. This portfolio follows the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/). I’m also familiar with the Google developer documentation style guide and The Chicago Manual of Style. I record recurring editorial decisions for writers and reviewers.
+I use the style guide each team chooses, along with its terminology and templates. When the same editorial question comes up more than once, I write down the decision so the team can refer to it.
+
+For this portfolio, I use the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/). I’m also familiar with the Google developer documentation style guide and The Chicago Manual of Style.
 
 ## Tools and domains
 
-- **Tools and formats** — DITA, Oxygen XML Editor, SDL Tridion Docs, Adobe Experience Manager, Confluence, Jira, Markdown, HTML, CSS, Git, and Docusaurus.
-- **Workflows and domains** — Documentation as code, Session Initiation Protocol (SIP), voice over IP (VoIP), cloud communications, customer relationship management (CRM) integrations, and lifecycle management.
+I work with DITA, Oxygen XML Editor, SDL Tridion Docs, Adobe Experience Manager, Confluence, and Jira. I also use Markdown, HTML, CSS, Git, and Docusaurus in documentation-as-code workflows.
+
+I’ve documented Session Initiation Protocol (SIP), voice over IP (VoIP), cloud communications, customer relationship management (CRM) integrations, and software lifecycle management.
 
 ## Background
 
-I hold a BA in Russian Translation and Interpreting and an MA in Applied Linguistics and Text Analytics. I apply that training to information structure and terminology.
+I studied Russian Translation and Interpreting for my BA and Applied Linguistics and Text Analytics for my MA.
 
 ## Contact
 
-For technical writing roles or collaborations, [message me on LinkedIn](https://www.linkedin.com/in/mehmet-kerem-baysal/).
+If you’d like to work together, [message me on LinkedIn](https://www.linkedin.com/in/mehmet-kerem-baysal/).
