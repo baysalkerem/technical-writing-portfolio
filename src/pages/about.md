@@ -5,10 +5,6 @@ title: About
 
 Hi, I’m Kerem. I write user guides, administrator procedures, and upgrade workflows for enterprise software. Much of my work is in unified communications and contact centers. I’ve documented cloud and hybrid deployments, integrations, and communications hardware.
 
-## Translation and editing
-
-I’ve also translated and edited Russian literature for Turkish readers. Translation taught me to notice when a writer assumes the reader already knows something. I bring that habit to technical writing. I explain unfamiliar terms where readers first need them and spell out what they need before starting a task.
-
 <div id="my-documentation-principles"></div>
 
 ## How I write
@@ -30,6 +26,10 @@ I’ve documented Session Initiation Protocol (SIP), voice over IP (VoIP), cloud
 ## Background
 
 I studied Russian Translation and Interpreting for my BA and Applied Linguistics and Text Analytics for my MA.
+
+## Beyond technical writing
+
+I’ve translated and edited Russian literature for Turkish readers. [View my translation portfolio](https://baysalkerem.github.io/translation/en/).
 
 ## Contact
 
