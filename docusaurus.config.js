@@ -95,7 +95,14 @@ const config = {
       items: [
         {type: 'docSidebar', sidebarId: 'docs', label: 'Writing samples', position: 'left'},
         {to: '/about', label: 'About', position: 'left'},
-        {href: 'https://github.com/baysalkerem/technical-writing-portfolio', label: 'GitHub', position: 'right'},
+        {
+          href: 'https://github.com/baysalkerem/technical-writing-portfolio',
+          html: '<span class="profile-icon" aria-hidden="true"></span><span class="profile-label">GitHub</span>',
+          className: 'profile-link profile-link--github',
+          position: 'right',
+          title: 'GitHub repository',
+          'aria-label': 'GitHub repository (opens in a new tab)',
+        },
         {
           href: 'https://www.linkedin.com/in/mehmet-kerem-baysal/',
           html: '<span class="profile-icon" aria-hidden="true"></span><span class="profile-label">LinkedIn</span>',
