@@ -109,6 +109,10 @@
   font-size: clamp(1.375rem, 2.5vw, 1.75rem);
 }
 
+#my-documentation-principles {
+  scroll-margin-top: calc(var(--ifm-navbar-height) + 0.5rem);
+}
+
 .theme-doc-markdown.markdown p a,
 .theme-doc-markdown.markdown li a,
 .theme-doc-markdown.markdown td a {

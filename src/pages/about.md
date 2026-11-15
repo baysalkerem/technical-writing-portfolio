@@ -9,7 +9,9 @@ Hi, I’m Kerem. I write user guides, administrator procedures, and upgrade work
 
 I’ve also translated and edited Russian literature for Turkish readers. Translation taught me to notice when a writer assumes the reader already knows something. I bring that habit to technical writing. I explain unfamiliar terms where readers first need them and spell out what they need before starting a task.
 
-## How I write {/* #my-documentation-principles */}
+<div id="my-documentation-principles"></div>
+
+## How I write
 
 I start with the person doing the task. What are they trying to change, and what access will they have? I walk through the workflow with engineers and product teams to catch details a draft can miss, like a required permission or a step that differs between cloud and hybrid deployments. Then I show readers how to verify the result and where to start if something goes wrong.
 
