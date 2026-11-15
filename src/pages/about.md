@@ -5,7 +5,7 @@ title: About
 
 Hi, I’m Kerem. I write user guides, administrator procedures, and upgrade workflows for enterprise software. Much of my work is in unified communications and contact centers. I’ve documented cloud and hybrid deployments, integrations, and communications hardware.
 
-## A bit about me
+## Translation and editing
 
 I’ve also translated and edited Russian literature for Turkish readers. Translation taught me to notice when a writer assumes the reader already knows something. I bring that habit to technical writing. I explain unfamiliar terms where readers first need them and spell out what they need before starting a task.
 
