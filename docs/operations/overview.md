@@ -22,3 +22,5 @@ Use this guide to verify interaction delivery during an upgrade and investigate 
 ## Before you upgrade
 
 Use the approved runbook and recovery plan for your version. Agree with the change lead on the time limit for a test offer so you have the same pass criterion before and after the upgrade.
+
+For VM recovery and network validation exercises, see [Infrastructure Operations](../infrastructure-operations/overview.md).

@@ -19,12 +19,12 @@ Create an account and assign the agent to a queue. The agent activates the accou
 
 ## Create the account
 
-1. In the administration console, <StyleText google="click">go to</StyleText> **Identity** > **Users**.
-2. <StyleText google="Click">Select</StyleText> **Create user**.
+1. In the administration console, go to **Identity** > **Users**.
+2. Select **Create user**.
 3. Enter the agent's name and work email address.
 4. In **Role**, select **Agent**.
 5. In **Queue assignments**, select the required queue.
-6. <StyleText google="Click">Select</StyleText> **Create**. An invitation goes to the agent’s work email address, and the account appears as **Pending activation**.
+6. Select **Create**. An invitation goes to the agent’s work email address, and the account appears as **Pending activation**.
 
 ## Verify the account
 
@@ -41,7 +41,7 @@ The agent can now [set their availability](../user-guide/manage-availability.md)
 
 1. In **Identity** > **Users**, open the account.
 2. Confirm the work email address with the agent and correct it if needed.
-3. <StyleText google={<>If the account is <strong>Pending activation</strong>, click <strong>Resend invitation</strong>.</>}>Select <strong>Resend invitation</strong> while the account is <strong>Pending activation</strong>.</StyleText>
+3. <StyleText google={<>If the account is <strong>Pending activation</strong>, select <strong>Resend invitation</strong>.</>}>Select <strong>Resend invitation</strong> while the account is <strong>Pending activation</strong>.</StyleText>
 4. Ask the agent to confirm they received the invitation.
 
 If the invitation still doesn’t arrive, send the account status and the time you last sent the invitation to your identity support team.

@@ -18,13 +18,15 @@ import styles from './about.module.css';
 
 ## What’s in this portfolio?
 
-The samples are set in Nexus Connect, a fictional cloud communications platform. If you’d like to see how I write for different readers, start with <Link to="/docs/user-guide/handle-interaction">Handle a chat interaction</Link> for agents or <Link to="/docs/operations/upgrade-workflow">Upgrade a deployment</Link> for operators.
+The samples cover Nexus Connect, a fictional cloud communications platform, and its infrastructure lab. For infrastructure examples, start with the <Link to="/docs/infrastructure-operations/recover-failed-vm">VM recovery runbook</Link> or the <Link to="/docs/infrastructure-operations/validate-network-connectivity">network validation procedure</Link>. For application examples, see <Link to="/docs/user-guide/handle-interaction">Handle a chat interaction</Link> for agents or <Link to="/docs/operations/upgrade-workflow">Upgrade a deployment</Link> for operators.
 
 <div id="my-documentation-principles"></div>
 
 ## How I write
 
 When I draft a procedure, I ask myself, “How will the reader know it worked?” For an upgrade, that might mean sending a test interaction and seeing it reach the right agent. I walk through the steps with engineers and product teams to catch details like a required permission or a step that differs between cloud and hybrid deployments. Then I show readers how to check the result and where to start if something goes wrong.
+
+The <Link to="/docs/case-studies/ai-assisted-documentation">AI-assisted documentation case study</Link> shows how the infrastructure samples were drafted and verified.
 
 ## Style guides and editorial standards
 

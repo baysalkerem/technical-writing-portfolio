@@ -10,7 +10,7 @@ import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
 
 <WritingStyleSwitch />
 
-<StyleText google="In Nexus Connect Workspace, accept">Accept</StyleText> an incoming chat, reply to the customer, and record the outcome.
+Accept an incoming chat, reply to the customer, and record the outcome. This procedure uses Nexus Connect Workspace in a desktop browser with a mouse.
 
 ## Prerequisites
 

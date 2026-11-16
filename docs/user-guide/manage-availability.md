@@ -2,7 +2,6 @@
 title: Set your availability
 sidebar_position: 2
 ---
-import {StyleText} from '@site/src/components/WritingStyle';
 import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
 
 # Set your availability
@@ -18,20 +17,20 @@ Set your availability to control when you can receive new customer interactions.
 
 ## Set your status to Available
 
-1. In the workspace header, <StyleText google="click">select</StyleText> your current status.
+1. In the workspace header, select your current status.
 2. Select **Available**.
 3. In the workspace sidebar, open **Queue status**.
 4. Find your queue and confirm that it shows **Ready**. You’re now eligible to receive interactions from this queue.
 
 ## Troubleshoot missing offers {/* #if-you-are-not-receiving-offers */}
 
-- **Queue missing**<StyleText google=".">{' —'}</StyleText> Ask your supervisor to have an administrator check your queue assignment.
-- **Not ready**<StyleText google=".">{' —'}</StyleText> Finish any open wrap-up and check **Queue status** again. If the status doesn’t change, give your supervisor the queue name and status.
-- **Ready** with no offers<StyleText google=".">{' —'}</StyleText> Give your supervisor the queue name, channel, and expected offer time, including the time zone. Include the interaction ID if you have it.
+- **Queue missing.** Ask your supervisor to have an administrator check your queue assignment.
+- **Not ready.** Finish any open wrap-up and check **Queue status** again. If the status doesn’t change, give your supervisor the queue name and status.
+- **Ready** with no offers. Give your supervisor the queue name, channel, and expected offer time, including the time zone. Include the interaction ID if you have it.
 
 ## Pause new interactions
 
-1. In the workspace header, <StyleText google="click">select</StyleText> your current status.
+1. In the workspace header, select your current status.
 2. Select **Away**.
 3. If a reason field appears, select the reason that matches your activity.
 

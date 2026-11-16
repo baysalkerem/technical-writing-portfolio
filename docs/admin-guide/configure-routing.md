@@ -16,18 +16,18 @@ With the **Longest idle** policy, the eligible agent with the longest idle time 
 
 - Sign in to the administration console with the **Routing administrator** role.
 - Identify the target queue, its channel, and the approved offer timeout in seconds.
-- Prepare a dedicated test queue with the same channel and eligibility rules as the target queue.
+- Prepare a dedicated queue in the test environment with the same channel and eligibility rules as the target queue.
 - Assign two eligible test agents to the test queue. Keep them out of other queues during the test.
 
 Configure and validate the policy in the test environment before applying it to the production queue.
 
 ## Configure the policy
 
-1. <StyleText google="In the administration console, click">Go to</StyleText> **Routing** > **Queues**.
+1. <StyleText google="In the administration console, go to">Go to</StyleText> **Routing** > **Queues**.
 2. Open the queue you’re configuring. Start with the test queue.
 3. In **Routing policy**, select **Longest idle**.
 4. In **Offer timeout**, enter the approved value in seconds.
-5. <StyleText google="Click">Select</StyleText> **Save**. The console displays a confirmation message.
+5. Select **Save**. The console displays a confirmation message.
 
 ## Validate routing
 
@@ -54,7 +54,7 @@ flowchart TD
 
 If the second agent receives the first offer or neither agent receives one, check the routing event log.
 
-1. <StyleText google="In the administration console, click">Go to</StyleText> **Routing** > **Event log**.
+1. <StyleText google="In the administration console, go to">Go to</StyleText> **Routing** > **Event log**.
 2. Find the event by interaction ID. If you don’t have the ID, use the queue, channel, and test time, including the time zone.
 3. If you find the event, check the queue, each agent’s eligibility and idle time, and who received the offer. If no event appears, record that result and check whether the interaction reached the intended queue.
 4. Fix the issue and repeat the test.
