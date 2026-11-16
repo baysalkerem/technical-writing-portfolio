@@ -3,6 +3,15 @@ module.exports = {
     'intro',
     {
       type: 'category',
+      label: 'Infrastructure Operations',
+      items: [
+        {type: 'doc', id: 'infrastructure-operations/overview', label: 'Overview'},
+        'infrastructure-operations/recover-failed-vm',
+        'infrastructure-operations/validate-network-connectivity',
+      ],
+    },
+    {
+      type: 'category',
       label: 'User guide',
       items: [
         {type: 'doc', id: 'user-guide/overview', label: 'Overview'},
@@ -36,5 +45,6 @@ module.exports = {
         'operations/troubleshooting',
       ],
     },
+    {type: 'doc', id: 'case-studies/ai-assisted-documentation', label: 'AI documentation case study'},
   ]
 };

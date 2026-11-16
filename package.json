@@ -2,7 +2,15 @@
   "name": "technical-writing-portfolio",
   "version": "1.0.0",
   "private": true,
-  "scripts": {"start": "docusaurus start", "build": "docusaurus build", "serve": "docusaurus serve", "clear": "docusaurus clear"},
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "lint:md": "node scripts/validate-content.mjs markdown",
+    "validate:front-matter": "node scripts/validate-content.mjs front-matter",
+    "check": "npm run lint:md && npm run validate:front-matter && npm run build"
+  },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
     "@docusaurus/preset-classic": "^3.9.2",
@@ -14,5 +22,11 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-  "engines": {"node": ">=20"}
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "js-yaml": "4.3.2",
+    "markdownlint": "0.38.0"
+  }
 }

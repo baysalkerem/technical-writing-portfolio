@@ -2,6 +2,21 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import styles from './SampleCards.module.css';
 
+const infrastructureSamples = [
+  {
+    title: 'Recover a failed virtual machine',
+    audience: 'Infrastructure operators',
+    task: 'Recover from a failed upgrade and validate an isolated candidate',
+    to: '/docs/infrastructure-operations/recover-failed-vm',
+  },
+  {
+    title: 'Validate network connectivity',
+    audience: 'Network operators',
+    task: 'Verify routing, DNS, and HTTPS after a deployment change',
+    to: '/docs/infrastructure-operations/validate-network-connectivity',
+  },
+];
+
 const integrationAndOperationsSamples = [
   {
     title: 'Connect a CRM integration',
@@ -24,6 +39,12 @@ const integrationAndOperationsSamples = [
 ];
 
 const librarySamples = [
+  {
+    title: 'Infrastructure Operations',
+    audience: 'Infrastructure and network operators',
+    task: 'Recover a virtual machine and validate network connectivity',
+    to: '/docs/infrastructure-operations/overview',
+  },
   {
     title: 'User guide',
     audience: 'Contact center agents',
@@ -51,6 +72,7 @@ const librarySamples = [
 ];
 
 export const homepageSamples = [
+  ...infrastructureSamples,
   {
     title: 'Set your availability',
     audience: 'Contact center agents',
