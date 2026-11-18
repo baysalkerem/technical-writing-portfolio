@@ -45,11 +45,13 @@ I built this portfolio with Markdown, HTML, CSS, Git, and Docusaurus. It uses re
 
 ## Beyond technical writing
 
-Books and music keep me busy, too. I translate and edit Russian literature for Turkish readers—you can find the books I’ve worked on in my [translation portfolio](https://baysalkerem.github.io/translation/en/).
+My background is in Russian translation and applied linguistics, including two years living in Nizhny Novgorod, Russia—a beautiful city with a name that took longer to pronounce than my degree. My experience spans sales, editorial project management, and technical writing at international companies. Working across countries and cultures is familiar territory, with Turkish, English, and Russian all part of the mix.
 
-I studied Russian translation, then applied linguistics and text analytics. These days, I divide my writing life between software documentation and literature.
+Earlier work includes translating and editing Russian literature for Turkish readers. You can browse the books in my [translation portfolio](https://baysalkerem.github.io/translation/en/).
 
-I also play bass and experiment with music production. Sometimes it’s nice to work on something you can turn up loud.
+Other interests include gaming and tinkering with app ideas of my own. Music gets a fair share of my time. I play bass, electric guitar, and occasionally drums, and experiment with music production.
+
+Sometimes it’s nice to work on something you can turn up loud.
 
 ## Contact
 
