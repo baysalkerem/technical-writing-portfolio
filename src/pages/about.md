@@ -45,7 +45,11 @@ I built this portfolio with Markdown, HTML, CSS, Git, and Docusaurus. It uses re
 
 ## Beyond technical writing
 
-I studied Russian Translation and Interpreting for my BA and Applied Linguistics and Text Analytics for my MA. I also translate and edit Russian literature for Turkish readers. You can find my published work in my [translation portfolio](https://baysalkerem.github.io/translation/en/).
+Books and music keep me busy, too. I translate and edit Russian literature for Turkish readers—you can find the books I’ve worked on in my [translation portfolio](https://baysalkerem.github.io/translation/en/).
+
+I studied Russian translation, then applied linguistics and text analytics. These days, I divide my writing life between software documentation and literature.
+
+I also play bass and experiment with music production. Sometimes it’s nice to work on something you can turn up loud.
 
 ## Contact
 
