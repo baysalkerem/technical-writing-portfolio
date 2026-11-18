@@ -1,6 +1,6 @@
 # Information architecture and style review
 
-Reviewed November 16, 2026. The review covered the existing documentation and the four added topics in the Google GGI feature branch. The baseline was commit `95750bb47651b5ee8554eb0a96b8f1e04a95da5f`.
+Reviewed November 16, 2026. The review covered the existing documentation and the four topics added in the infrastructure documentation update. The baseline was commit `95750bb47651b5ee8554eb0a96b8f1e04a95da5f`.
 
 ## Information architecture
 
