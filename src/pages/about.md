@@ -12,7 +12,7 @@ import styles from './about.module.css';
 <WritingStyleSwitch />
 
 <div className={styles.intro}>
-  <p>Hi, I’m Kerem Baysal. I write documentation for people who use, configure, and maintain enterprise software. Much of my professional work is in unified communications and contact centers. In this portfolio, I also explore infrastructure tasks such as VM recovery and network validation.</p>
+  <p>Hi, I’m Kerem Baysal. I write documentation for people who use, configure, and maintain enterprise software. My work spans telecommunications, cloud and hybrid deployments, integrations, and software lifecycle operations. In this portfolio, I also explore infrastructure tasks such as VM recovery and network validation.</p>
   <img className={styles.portrait} src={portrait} alt="Portrait of Kerem Baysal" width="709" height="1536" />
 </div>
 
