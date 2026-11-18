@@ -12,21 +12,21 @@ import styles from './about.module.css';
 <WritingStyleSwitch />
 
 <div className={styles.intro}>
-  <p>Hi, I’m Kerem Baysal. I’m a technical writer working mainly in unified communications and contact centers. I write for agents handling customer chats, administrators setting up integrations, and operators planning upgrades.</p>
+  <p>Hi, I’m Kerem Baysal. I write documentation for people who use, configure, and maintain enterprise software. Much of my professional work is in unified communications and contact centers. In this portfolio, I also explore infrastructure tasks such as VM recovery and network validation.</p>
   <img className={styles.portrait} src={portrait} alt="Portrait of Kerem Baysal" width="709" height="1536" />
 </div>
 
 ## What’s in this portfolio?
 
-The samples cover Nexus Connect, a fictional cloud communications platform, and its infrastructure lab. For infrastructure examples, start with the <Link to="/docs/infrastructure-operations/recover-failed-vm">VM recovery runbook</Link> or the <Link to="/docs/infrastructure-operations/validate-network-connectivity">network validation procedure</Link>. For application examples, see <Link to="/docs/user-guide/handle-interaction">Handle a chat interaction</Link> for agents or <Link to="/docs/operations/upgrade-workflow">Upgrade a deployment</Link> for operators.
+The samples use Nexus Connect, a fictional platform, and its infrastructure lab. Start with the <Link to="/docs/infrastructure-operations/recover-failed-vm">VM recovery runbook</Link> for recovery decisions and rollback criteria, or the <Link to="/docs/infrastructure-operations/validate-network-connectivity">network validation procedure</Link> for routing, DNS, and HTTPS checks. For user documentation, try <Link to="/docs/user-guide/handle-interaction">Handle a chat interaction</Link>.
 
 <div id="my-documentation-principles"></div>
 
 ## How I write
 
-When I draft a procedure, I ask myself, “How will the reader know it worked?” For an upgrade, that might mean sending a test interaction and seeing it reach the right agent. I walk through the steps with engineers and product teams to catch details like a required permission or a step that differs between cloud and hybrid deployments. Then I show readers how to check the result and where to start if something goes wrong.
+When I draft a procedure, I ask myself, “How will the reader know it worked?” I work through the task with engineers and product teams, checking permissions, dependencies, and likely failure points. I include expected results, when to stop, and what evidence to collect if the reader needs help.
 
-The <Link to="/docs/case-studies/ai-assisted-documentation">AI-assisted documentation case study</Link> shows how the infrastructure samples were drafted and verified.
+The <Link to="/docs/case-studies/ai-assisted-documentation">AI-assisted documentation case study</Link> records the source checks and local tests used to review the infrastructure drafts, along with the validation still pending.
 
 ## Style guides and editorial standards
 
@@ -36,7 +36,9 @@ The samples in this view follow the <StyleGuideLink />. I’m also familiar with
 
 ## Tools and domains
 
-I’ve documented Session Initiation Protocol (SIP), voice over IP (VoIP), communications hardware, customer relationship management (CRM) integrations, and software upgrades. I’ve worked with DITA, Oxygen XML Editor, SDL Tridion Docs, Adobe Experience Manager, Confluence, and Jira. I built this portfolio with Markdown, HTML, CSS, Git, and Docusaurus.
+I’ve documented Session Initiation Protocol (SIP), voice over IP (VoIP), communications hardware, customer relationship management (CRM) integrations, and software upgrades. My tools include DITA, Oxygen XML Editor, SDL Tridion Docs, Adobe Experience Manager, Confluence, and Jira.
+
+I built this portfolio with Markdown, HTML, CSS, Git, and Docusaurus. It uses reusable components, validated YAML metadata, and GitHub Actions checks for Markdown, links, and production builds.
 
 <div id="background"></div>
 
