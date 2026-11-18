@@ -3,7 +3,6 @@ title: About
 ---
 import Link from '@docusaurus/Link';
 import portrait from '@site/static/img/kerem-baysal.jpg';
-import {StyleGuideLink} from '@site/src/components/WritingStyle';
 import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
 import styles from './about.module.css';
 
@@ -34,7 +33,7 @@ The <Link to="/docs/case-studies/ai-assisted-documentation">AI-assisted document
 
 I follow the team’s style guide, terminology, and templates. If we keep running into the same editorial question, I write down what we decide so the next writer or reviewer can use it.
 
-The samples in this view follow the <StyleGuideLink />. I’m also familiar with The Chicago Manual of Style.
+This portfolio includes versions based on the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) and the [Google developer documentation style guide](https://developers.google.com/style). Use the style switch to explore both. I’m also familiar with The Chicago Manual of Style.
 
 ## Tools and domains
 
