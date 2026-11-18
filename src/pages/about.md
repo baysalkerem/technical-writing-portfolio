@@ -3,7 +3,6 @@ title: About
 ---
 import Link from '@docusaurus/Link';
 import portrait from '@site/static/img/kerem-baysal.jpg';
-import {StyleGuideLink} from '@site/src/components/WritingStyle';
 import WritingStyleSwitch from '@site/src/components/WritingStyleSwitch';
 import styles from './about.module.css';
 
@@ -22,9 +21,11 @@ The samples use Nexus Connect, a fictional platform, and its infrastructure lab.
 
 <div id="my-documentation-principles"></div>
 
-## How I write
+<div id="how-i-write"></div>
 
-When I draft a procedure, I ask myself, “How will the reader know it worked?” I work through the task with engineers and product teams, checking permissions, dependencies, and likely failure points. I include expected results, when to stop, and what evidence to collect if the reader needs help.
+## What I can help with
+
+I help software and telecommunications teams turn complex technical information into clear, practical documentation. I write user guides, administrator procedures, and operational runbooks, and improve existing content for clarity, consistency, and ease of use.
 
 The <Link to="/docs/case-studies/ai-assisted-documentation">AI-assisted documentation case study</Link> records the source checks and local tests used to review the infrastructure drafts, along with the validation still pending.
 
@@ -32,7 +33,7 @@ The <Link to="/docs/case-studies/ai-assisted-documentation">AI-assisted document
 
 I follow the team’s style guide, terminology, and templates. If we keep running into the same editorial question, I write down what we decide so the next writer or reviewer can use it.
 
-The samples in this view follow the <StyleGuideLink />. I’m also familiar with The Chicago Manual of Style.
+This portfolio includes versions based on the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) and the [Google developer documentation style guide](https://developers.google.com/style). Use the style switch to explore both. I’m also familiar with The Chicago Manual of Style.
 
 ## Tools and domains
 
