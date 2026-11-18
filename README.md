@@ -12,7 +12,7 @@ The portfolio opens in Microsoft style. Use the [Microsoft Writing Style Guide](
 - Use **Nexus Connect Workspace** on first mention and **workspace** in prose after that. Use **Workspace** in diagrams and **offer** for an interaction offered to an agent.
 - Give diagrams accessible titles and descriptions. Keep the steps, pass criteria, and recovery actions in the surrounding text.
 
-See the [contribution guidelines](CONTRIBUTING.md) for topic metadata and the review checklist.
+See the [contribution guidelines](CONTRIBUTING.md) for topic metadata and the review checklist. The [documentation decision log](reports/documentation-decisions.md) records problems found during development and how they were resolved.
 
 ## Run locally
 
